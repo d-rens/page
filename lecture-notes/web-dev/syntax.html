@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Daniel Renschler" />
-  <title>HTML Elemente und Syntax</title>
+  <title>syntax</title>
   <style>
     html {
       color: #1a1a1a;
@@ -234,8 +234,7 @@
 <h1 class="title">HTML Elemente und Syntax</h1>
 <p class="author">Daniel Renschler</p>
 </header>
-<p>pandoc pres.md -t beamer -o -pres.pdf pandoc pres.md -t html5 -s -o
-pres.html</p>
+<h1 id="html-elemente-und-syntax">HTML Elemente und Syntax</h1>
 <h1 id="syntax">Syntax</h1>
 <h1 id="tags">Tags</h1>
 <ul>
@@ -248,11 +247,12 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="
 <h2 id="ausnahmen">Ausnahmen:</h2>
 <div class="sourceCode" id="cb2"><pre
 class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;br&gt;</span>, <span class="kw">&lt;img&gt;</span>, <span class="kw">&lt;link&gt;</span>, <span class="kw">&lt;meta&gt;</span> <span class="er">&amp;</span> <span class="kw">&lt;hr&gt;</span></span></code></pre></div>
+<p>:::</p>
 <h1 id="wichtigste-tags">Wichtigste Tags</h1>
 <h2 id="fuer-struktur">Fuer Struktur:</h2>
 <table>
 <colgroup>
-<col style="width: 29%" />
+<col style="width: 28%" />
 <col style="width: 26%" />
 <col style="width: 44%" />
 </colgroup>
@@ -266,8 +266,8 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="
 <tbody>
 <tr class="odd">
 <td><code>&lt;!DOCTYPE html&gt;</code></td>
-<td>Zum indizieren das es HTML ist.</td>
-<td>Ganz am Anfang</td>
+<td>Zum indizieren das es html ist</td>
+<td>Ganz am Anfang.</td>
 </tr>
 <tr class="even">
 <td><code>&lt;html&gt;</code></td>
@@ -286,8 +286,8 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="
 </tr>
 <tr class="odd">
 <td><code>body</code></td>
-<td>da kommt der ganze inhalt rein.</td>
-<td>nach <code>head</code></td>
+<td>Hier kommt der ganze inhalt rein.</td>
+<td>Nach <code>head</code></td>
 </tr>
 </tbody>
 </table>
@@ -301,13 +301,14 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;link</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;css/style.css&quot;</span> <span class="er">rel</span><span class="ot">=</span><span class="st">&quot;stylesheet&quot;</span><span class="kw">&gt;</span></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/head&gt;</span></span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;body&gt;</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;p&gt;</span>Beispiel Test.<span class="kw">&lt;/p&gt;</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/body&gt;</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;p&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>      sint consectetur cupidatat.</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;/p&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/body&gt;</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
 <p>Hier ist eine Textstruktur. Die Seite hat den Titel “Beispiel”, die
 Sprache deutsch (<em>mit lang=“de”</em> ), und Inhalt der Seite ist
-“Beispiel Test.”.</p>
+Fuelltext.</p>
 </body>
 </html>
