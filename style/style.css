@@ -1,0 +1,52 @@
+body {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+article {
+  margin: auto;
+}
+
+h1 {
+  color: chocolate;
+}
+
+h2 {
+  color: sandybrown;
+}
+
+h3 {
+  color: tan;
+}
+
+dt {
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 30pt;
+  margin-bottom: 0;
+}
+
+header {
+  font-size: 30pt;
+  padding-bottom: 15pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+
+footer {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  clear: both;
+}
