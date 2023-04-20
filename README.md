@@ -1,2 +1,2 @@
 # page
-in the best cast on https://d-rens.site/
+in the best case on https://d-rens.site/
