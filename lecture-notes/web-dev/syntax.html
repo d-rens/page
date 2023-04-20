@@ -234,6 +234,8 @@
 <h1 class="title">HTML Elemente und Syntax</h1>
 <p class="author">Daniel Renschler</p>
 </header>
+<p>pandoc pres.md -t beamer -o -pres.pdf pandoc pres.md -t html5 -s -o
+pres.html</p>
 <h1 id="syntax">Syntax</h1>
 <h1 id="tags">Tags</h1>
 <ul>
@@ -243,11 +245,69 @@
 class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;html&gt;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
-<h1 id="anderes">anderes</h1>
+<h2 id="ausnahmen">Ausnahmen:</h2>
 <div class="sourceCode" id="cb2"><pre
-class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;html&gt;</span> <span class="kw">&lt;/html&gt;</span> - Hier drin ist der ganze Inhalt </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div&gt;</span> <span class="kw">&lt;/div&gt;</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
-<p>ä ö ü</p>
+class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;br&gt;</span>, <span class="kw">&lt;img&gt;</span>, <span class="kw">&lt;link&gt;</span>, <span class="kw">&lt;meta&gt;</span> <span class="er">&amp;</span> <span class="kw">&lt;hr&gt;</span></span></code></pre></div>
+<h1 id="wichtigste-tags">Wichtigste Tags</h1>
+<h2 id="fuer-struktur">Fuer Struktur:</h2>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 26%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tag</th>
+<th>Nutzen</th>
+<th>Wo im Dokument?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>&lt;!DOCTYPE html&gt;</code></td>
+<td>Zum indizieren das es HTML ist.</td>
+<td>Ganz am Anfang</td>
+</tr>
+<tr class="even">
+<td><code>&lt;html&gt;</code></td>
+<td>Um html schreiben zu koennen</td>
+<td>Nach <code>head</code> bis unter die letzte Zeile</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;head&gt;</code></td>
+<td>Fuer meta Daten.</td>
+<td>Nach <code>DOCTYPE</code>, vor <code>body</code></td>
+</tr>
+<tr class="even">
+<td><code>title</code></td>
+<td>Um in dem Browser oben den Titel zu zeigen.</td>
+<td>im <code>head</code></td>
+</tr>
+<tr class="odd">
+<td><code>body</code></td>
+<td>da kommt der ganze inhalt rein.</td>
+<td>nach <code>head</code></td>
+</tr>
+</tbody>
+</table>
+<h1 id="beispiel">Beispiel</h1>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;html</span> <span class="er">lang</span><span class="ot">=</span><span class="st">&quot;de&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;head&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;title&gt;</span>Beispiel<span class="kw">&lt;/title&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;meta</span> <span class="er">charset</span><span class="ot">=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;link</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;css/style.css&quot;</span> <span class="er">rel</span><span class="ot">=</span><span class="st">&quot;stylesheet&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/head&gt;</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;body&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;p&gt;</span>Beispiel Test.<span class="kw">&lt;/p&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/body&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
+<p>Hier ist eine Textstruktur. Die Seite hat den Titel “Beispiel”, die
+Sprache deutsch (<em>mit lang=“de”</em> ), und Inhalt der Seite ist
+“Beispiel Test.”.</p>
 </body>
 </html>
