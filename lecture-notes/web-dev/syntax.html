@@ -231,14 +231,18 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">HTML Elemente und Syntax</h1>
+<h1 class="title">Grundlagen HTML und CSS</h1>
 <p class="author">Daniel Renschler</p>
 </header>
 <h1 id="syntax">Syntax</h1>
-<p><img
+<figure>
+<img
 src="https://codetheweb.blog/assets/img/posts/html-syntax/tag-structure-2.png"
-alt="Syntax" /> Tags sind alle aus HTML, attributes muessen in CSS
-erstelt werden.</p>
+alt="Syntax" />
+<figcaption aria-hidden="true">Syntax</figcaption>
+</figure>
+<p>Tags sind alle aus HTML, Attribute, also Klassen (class) und Id’s
+muessen in CSS erstelt werden.</p>
 <h1 id="tags">Tags</h1>
 <ul>
 <li>Tags werden immer geöffnet und Geschlossen</li>
@@ -282,14 +286,19 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="
 <td>Nach <code>DOCTYPE</code>, vor <code>body</code></td>
 </tr>
 <tr class="even">
-<td><code>title</code></td>
+<td><code>&lt;title&gt;</code></td>
 <td>Um in dem Browser oben den Titel zu zeigen.</td>
 <td>im <code>head</code></td>
 </tr>
 <tr class="odd">
-<td><code>body</code></td>
+<td><code>&lt;body&gt;</code></td>
 <td>Hier kommt der ganze inhalt rein.</td>
 <td>Nach <code>head</code></td>
+</tr>
+<tr class="even">
+<td><code>&lt;link&gt;</code></td>
+<td>Zum verbinden zu z.B. Stylesheets</td>
+<td>Im <code>head</code></td>
 </tr>
 </tbody>
 </table>
@@ -312,6 +321,41 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="
 <p>Hier ist eine Textstruktur. Die Seite hat den Titel “Beispiel”, die
 Sprache deutsch (<em>mit lang=“de”</em> ), und Inhalt der Seite ist
 Fuelltext.</p>
-<h1 id="section">Section</h1>
+<h1 id="attribute-in-css">Attribute (in CSS)</h1>
+<figure>
+<img
+src="https://codetheweb.blog/assets/img/posts/html-syntax/tag-structure-2.png"
+alt="Syntax von voher" />
+<figcaption aria-hidden="true">Syntax von voher</figcaption>
+</figure>
+<p>class und id werden in dem Stylesheet definiert. Unterschied: Klassen
+koenne beliebig oft genutzt werden, Id nur ein mal.</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.test-class</span> {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span>: <span class="cn">#ffffff</span><span class="op">;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background-color</span>: <span class="cn">#555555</span><span class="op">;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="pp">#test-id</span> {</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">display</span>: <span class="dv">flex</span><span class="op">;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h1 id="verwendung-der-attribute">Verwendung der Attribute</h1>
+<h2 id="attribute">Attribute:</h2>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.test-class</span> {</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span>: <span class="cn">#ffffff</span><span class="op">;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background-color</span>: <span class="cn">#555555</span><span class="op">;</span> }</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="pp">#test-id</span> { <span class="kw">color</span>: <span class="cn">navy</span><span class="op">;</span> }</span></code></pre></div>
+<h2 id="verwendung">Verwendung</h2>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;body</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;test-class&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;p&gt;</span>Fuelltext 1<span class="kw">&lt;/p&gt;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;p</span> <span class="er">id</span><span class="ot">=</span><span class="st">&quot;test-id&quot;</span><span class="kw">&gt;</span>Fuelltext 2<span class="kw">&lt;/p&gt;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/body&gt;</span></span></code></pre></div>
+<p>Hier ist dann der Fuelltext 1 auf Grauem Hintergrund aus
+<code>text-class</code> mit Weiser Schriftfarbe. Fuelltext 2 hat die
+gleichen Attribute aus dem Body uebernommen, aber ueberschreibt die
+Schriftfarbe mit der eingenen Id.</p>
 </body>
 </html>
