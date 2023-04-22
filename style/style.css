@@ -1,6 +1,13 @@
+#f5f5f5
+#333
+#333
+#666
+#999
+#ccc
+
 body {
-  background-color: #1b1b1b;
-  color: white;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
 main {
@@ -13,19 +20,19 @@ article {
 }
 
 h1 {
-  color: chocolate;
+  color: #333;   
 }
 
 h2 {
-  color: sandybrown;
+  color: #666;   
 }
 
 h3 {
-  color: tan;
+  color: #999;
 }
 
 h4 {
-  color: beige;
+  color: #ccc;
 }
 
 dt {
