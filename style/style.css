@@ -1,13 +1,17 @@
-#f5f5f5
-#333
-#333
-#666
-#999
-#ccc
+/*
+  Color scheme
+  #f5f5f5
+  #333
+  #333
+  #666
+  #999
+  #ccc
+*/
 
 body {
   background-color: #f5f5f5;
   color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
