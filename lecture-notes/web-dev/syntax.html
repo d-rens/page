@@ -357,5 +357,286 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a href="
 <code>text-class</code> mit Weiser Schriftfarbe. Fuelltext 2 hat die
 gleichen Attribute aus dem Body uebernommen, aber ueberschreibt die
 Schriftfarbe mit der eingenen Id.</p>
+<h1 id="mehr-css">mehr CSS</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>CSS</th>
+<th>Bedeutung</th>
+<th>Verwendung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>color</code></td>
+<td>bestimmt Textfarbe</td>
+<td>Wenn man Textfarbe ändern will, z.B. für <code>p</code>,
+<code>h1</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>background-color</code></td>
+<td>bestimmt Hintergrundfarbe</td>
+<td>Z.B. für <code>div</code>s, <code>container</code>s, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>font-family</code></td>
+<td>bestimmt Schriftart</td>
+<td>Z.B. für <code>body</code>, <code>h1</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>font-size</code></td>
+<td>bestimmt Schriftgröße</td>
+<td>Z.B. für <code>body</code>, <code>h1</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>font-weight</code></td>
+<td>bestimmt Schriftstärke</td>
+<td>Z.B. für <code>strong</code>, <code>h1</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>font-style</code></td>
+<td>bestimmt Schriftstil</td>
+<td>Z.B. für <code>em</code>, <code>i</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>display</code></td>
+<td>bestimmt Anzeigeeigenschaften</td>
+<td>Z.B. für <code>div</code>, <code>span</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>width</code></td>
+<td>bestimmt Breite eines Elements</td>
+<td>Z.B. für <code>img</code>, <code>div</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>height</code></td>
+<td>bestimmt Höhe eines Elements</td>
+<td>Z.B. für <code>img</code>, <code>div</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>max-width</code></td>
+<td>bestimmt maximale Breite eines Elements</td>
+<td>Z.B. für <code>img</code>, <code>div</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>max-height</code></td>
+<td>bestimmt maximale Höhe eines Elements</td>
+<td>Z.B. für <code>img</code>, <code>div</code>, usw.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="aufgabe-1">Aufgabe 1</h1>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;html</span> <span class="er">lang</span><span class="ot">=</span><span class="st">&quot;de&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;head&gt;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;title&gt;</span>Aufgabe 1<span class="kw">&lt;/title&gt;</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;meta</span> <span class="er">charset</span><span class="ot">=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;link</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;css/style.css&quot;</span> <span class="er">rel</span><span class="ot">=</span><span class="st">&quot;stylesheet&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/head&gt;</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;body&gt;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;h1&gt;</span>Erste aufgabe<span class="kw">&lt;/h1&gt;</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;p&gt;</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    Fuelltext</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;/p&gt;</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;https://www.w3schools.com/css/default.asp&quot;</span><span class="kw">&gt;</span>erklaerung<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/body&gt;</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
+<h1 id="wie-es-aussehen-soll">Wie es aussehen soll:</h1>
+<p><img src="/home/daniel/2023-04-24-112735_1236x741_scrot.png" /></p>
+<h1 id="mehr-css-1">mehr CSS</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>CSS</th>
+<th>Bedeutung</th>
+<th>Verwendung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>padding</code></td>
+<td>bestimmt Innenabstand eines Elements</td>
+<td>Z.B. für <code>div</code>, <code>p</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>margin</code></td>
+<td>bestimmt Außenabstand eines Elements</td>
+<td>Z.B. für <code>div</code>, <code>p</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>border</code></td>
+<td>bestimmt Rahmenstil, -breite und -farbe</td>
+<td>Z.B. für <code>div</code>, <code>img</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>text-align</code></td>
+<td>bestimmt Ausrichtung des Texts</td>
+<td>Z.B. für <code>p</code>, <code>h1</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>line-height</code></td>
+<td>bestimmt Zeilenhöhe</td>
+<td>Z.B. für <code>p</code>, <code>h1</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>text-decoration</code></td>
+<td>bestimmt Textdekoration</td>
+<td>Z.B. für <code>a</code>, <code>h1</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>text-transform</code></td>
+<td>bestimmt Texttransformierung</td>
+<td>Z.B. für <code>p</code>, <code>h1</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>float</code></td>
+<td>bestimmt Schweben des Elements</td>
+<td>Z.B. für <code>img</code>, <code>div</code>, usw.</td>
+</tr>
+<tr class="odd">
+<td><code>clear</code></td>
+<td>bestimmt Behandlung von Schwebefloats</td>
+<td>Z.B. für <code>div</code>, usw.</td>
+</tr>
+<tr class="even">
+<td><code>position</code></td>
+<td>bestimmt Positionierung des Elements</td>
+<td>Z.B. für <code>div</code>, <code>img</code>, usw.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="fuer-css-grid">Fuer Css grid</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>CSS Grid</th>
+<th>Bedeutung</th>
+<th>Verwendung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>display: grid</code></td>
+<td>erstellt ein Raster-Container-Element</td>
+<td>Zum Erstellen eines Rasters-Containers</td>
+</tr>
+<tr class="even">
+<td><code>grid-template-columns</code></td>
+<td>definiert die Anzahl und Breite der Raster-Spalten</td>
+<td>Zum Definieren der Raster-Spalten</td>
+</tr>
+<tr class="odd">
+<td><code>grid-template-rows</code></td>
+<td>definiert die Anzahl und Höhe der Raster-Reihen</td>
+<td>Zum Definieren der Raster-Reihen</td>
+</tr>
+<tr class="even">
+<td><code>grid-template-areas</code></td>
+<td>definiert das Raster-Layout mithilfe von benannten
+Rasterflächen</td>
+<td>Zum Definieren des Raster-Layouts</td>
+</tr>
+<tr class="odd">
+<td><code>grid-column-start</code></td>
+<td>definiert die Anfangsspalte eines Grid-Elements</td>
+<td>Zur Positionierung eines Grid-Elements innerhalb des Rasters</td>
+</tr>
+<tr class="even">
+<td><code>grid-column-end</code></td>
+<td>definiert die Endspalte eines Grid-Elements</td>
+<td>Zur Positionierung eines Grid-Elements innerhalb des Rasters</td>
+</tr>
+<tr class="odd">
+<td><code>grid-row-start</code></td>
+<td>definiert die Anfangsreihe eines Grid-Elements</td>
+<td>Zur Positionierung eines Grid-Elements innerhalb des Rasters</td>
+</tr>
+</tbody>
+</table>
+<h1 id="css-grid">Css grid</h1>
+<figure>
+<img
+src="https://media.kulturbanause.de/2016/05/css-grids-align-justify.png"
+alt="Css Grid" />
+<figcaption aria-hidden="true">Css Grid</figcaption>
+</figure>
+<h1 id="fuer-flexbox">Fuer Flexbox</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>CSS Flexbox</th>
+<th>Bedeutung</th>
+<th>Verwendung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>display: flex</code></td>
+<td>erstellt ein Flex-Container-Element</td>
+<td>Zum Erstellen eines Flex-Containers</td>
+</tr>
+<tr class="even">
+<td><code>flex-direction</code></td>
+<td>definiert die Hauptachse des Flex-Containers</td>
+<td>Zur Festlegung der Ausrichtung der Elemente im Flex-Container</td>
+</tr>
+<tr class="odd">
+<td><code>justify-content</code></td>
+<td>definiert die horizontale Ausrichtung der Elemente im
+Flex-Container</td>
+<td>Zur Ausrichtung der Elemente entlang der Hauptachse</td>
+</tr>
+<tr class="even">
+<td><code>align-items</code></td>
+<td>definiert die vertikale Ausrichtung der Elemente im
+Flex-Container</td>
+<td>Zur Ausrichtung der Elemente entlang der Querachse</td>
+</tr>
+<tr class="odd">
+<td><code>align-self</code></td>
+<td>definiert die vertikale Ausrichtung eines einzelnen Elements</td>
+<td>Zur Ausrichtung eines einzelnen Elements innerhalb des
+Flex-Containers</td>
+</tr>
+</tbody>
+</table>
+<h1 id="flexbox-grid-darstellung">Flexbox Grid Darstellung</h1>
+<figure>
+<img
+src="https://media.kulturbanause.de/2018/08/flexbox-flex-direction-920x564.png"
+alt="Flexbox Grid" />
+<figcaption aria-hidden="true">Flexbox Grid</figcaption>
+</figure>
+<h1 id="unterschied-flexboxcss-grid">Unterschied Flexbox/CSS Grid</h1>
+<p><img
+src="https://res.cloudinary.com/dukp6c7f7/image/upload/f_auto,fl_lossy,q_auto/s3-ghost//2019/09/Flexbox-vs-CSS-Grid.jpg" /></p>
+<h1 id="mehr-resources-zum-lernen">mehr resources zum lernen</h1>
+<h2 id="html">HTML</h2>
+<p><a href="https://www.w3schools.com/html/default.asp">w3, html</a></p>
+<h2 id="css">CSS</h2>
+<p><a href="https://www.w3schools.com/css/default.asp">w3, css</a></p>
 </body>
 </html>
