@@ -275,8 +275,75 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="
 <li>link</li>
 </ul>
 <p><code>title</code>:</p>
-<p>Im title steht was dann auch im Browser oben angezeigt wird</p>
+<p>Im <code>title</code> steht was dann auch im Browser oben angezeigt
+wird</p>
 <div class="sourceCode" id="cb4"><pre
 class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;title&gt;</span>Beispiel Titel<span class="kw">&lt;/title&gt;</span></span></code></pre></div>
+<p>In <code>meta</code> gibt man das Charset also was fuer ein encoding
+genutzt wird. Bei uns ist das fuer ae, oe, ue (<em>hab die tasten hier
+grad nicht</em>) <strong>UTF-8</strong>. Also:</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span> <span class="er">charset</span><span class="ot">=</span><span class="st">&quot;UTF-8&quot;</span><span class="kw">&gt;</span></span></code></pre></div>
+<p>Zuletzt braucht man die verlinkung zum Stylesheet, wie erklaert
+weiter oben:</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;link</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;css/style.css&quot;</span> <span class="er">rel</span><span class="ot">=</span><span class="st">&quot;stylesheet&quot;</span><span class="kw">&gt;</span></span></code></pre></div>
+<h1 id="body">Body</h1>
+<p>Im body ist alles, andere.</p>
+<p>Also Text, Bilder…</p>
+<p>Der Rest halt.</p>
+<h1 id="css">CSS</h1>
+<h2 id="klassen">Klassen</h2>
+<p>Klassen definiert man wie folgt:</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.test-klasse</span> {</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>        <span class="kw">color</span>: <span class="cn">#fff</span><span class="op">;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    }</span></code></pre></div>
+<p>Der ‘.’ sagt das eine Klasse folgt, welche man selbst definiert, es
+muss an einem teil sein wenn man mehrere Woerter benutzt, also
+<code>'test-klasse'</code> und nicht etwas wie
+<code>'test klasse'</code> (<em>mit Lehrzeichen statt ‘-’</em>).</p>
+<p>Was die Klasse dann macht macht man in den geschwungenen Klammern
+<code>{}</code>, die bekommt man mit <code>AltGr+7</code>..</p>
+<h2 id="ids">IDs</h2>
+<p>IDs sind fast gleich, besonders ist aber das man sie nur ein mal pro
+Seite benutzten darf.</p>
+<p>Dann definiert man sie:</p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#test-id</span> {</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background-color</span>: <span class="cn">#000</span><span class="op">;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p><strong>Wichtig ist auch noch das man bei mehreren CSS attributen sie
+mit ‘;’ voneinander trennen muss.</strong></p>
+<h1 id="wie-man-es-in-html-benutzt">Wie man es in HTML benutzt</h1>
+<h2 id="klassen-1">Klassen</h2>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;body</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;test-klasse&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;p&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>      Inhalt, der sich an die test-klasse haelt. <span class="kw">&lt;br&gt;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;em&gt;</span>wenn sie richtig definiert wurde<span class="kw">&lt;/em&gt;</span> </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;/p&gt;</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/body&gt;</span></span></code></pre></div>
+<h2 id="ids-1">IDs</h2>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;body</span> <span class="er">id</span><span class="ot">=</span><span class="st">&quot;test-id&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;p&gt;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>      Inhalt, der sich an die test-id haelt. <span class="kw">&lt;br&gt;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;em&gt;</span>wenn sie richtig definiert wurde<span class="kw">&lt;/em&gt;</span> </span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;/p&gt;</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/body&gt;</span></span></code></pre></div>
+<h1 id="extra">extra</h1>
+<h3 id="wo-kann-man-sie-benutzen">Wo kann man sie benutzen?</h3>
+<p><strong>Klassen</strong> und <strong>IDs</strong> kann man jedem Tag
+geben.</p>
+<h3 id="wie-viele-klassen-kann-man-benutzen">Wie viele Klassen kann man
+benutzen?</h3>
+<p>So oft man will.</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;body</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;klasse-1 klasse-2 klasse-...&quot;</span><span class="kw">&gt;</span></span></code></pre></div>
+<p>Das ist nuetzlich wenn man z.B. eine Klasse hat fuer eine
+Schriftfarbe, eine fuer Hintergrundfarbe…</p>
+<p>Das ist so wie in Frameworks wie Bootstrap, oder ist allgemein ganz
+praktisch wenn man grosse websiten hat.</p>
 </body>
 </html>
