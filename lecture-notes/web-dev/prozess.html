@@ -332,6 +332,28 @@ class="sourceCode html"><code class="sourceCode html"><span id="cb10-1"><a href=
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;em&gt;</span>wenn sie richtig definiert wurde<span class="kw">&lt;/em&gt;</span> </span>
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;/p&gt;</span></span>
 <span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/body&gt;</span></span></code></pre></div>
+<h1 id="erweiterte-verlinkung">Erweiterte Verlinkung:</h1>
+<p>Gegben:</p>
+<pre><code>HTML(Beliebiger Ordner)
+|
+|_css (ordner)
+| |_style.css
+|
+|_html (ordner)
+| |_sub-1.html
+|
+|-index.html</code></pre>
+<h2 id="stylesheet-in-die-sub-html">Stylesheet in die sub-html:</h2>
+<p>Den Stylesheet kann man nun nichtmehr normal mit
+‘<code>&lt;link href="css/style.css" rel="stylesheet"&gt;</code>’
+verlinken.</p>
+<h3 id="zum-vorstellen">Zum Vorstellen</h3>
+<p><code>&lt;link&gt;</code> ueberhalb greift erst runter in den css
+Ordner, dann die css.</p>
+<p>Aber die sub-1.html kann nach unten keine css greifen, sondern muss
+erst einen Ordner hoch greifen. Das macht man mit <code>..</code> zu
+beginn des <code>href</code>:
+‘<code>&lt;link href="../css/style.css" rel="stylesheet"&gt;</code>’</p>
 <h1 id="extra">extra</h1>
 <h3 id="wo-kann-man-sie-benutzen">Wo kann man sie benutzen?</h3>
 <p><strong>Klassen</strong> und <strong>IDs</strong> kann man jedem Tag
@@ -339,8 +361,8 @@ geben.</p>
 <h3 id="wie-viele-klassen-kann-man-benutzen">Wie viele Klassen kann man
 benutzen?</h3>
 <p>So oft man will.</p>
-<div class="sourceCode" id="cb11"><pre
-class="sourceCode html"><code class="sourceCode html"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;body</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;klasse-1 klasse-2 klasse-...&quot;</span><span class="kw">&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;body</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;klasse-1 klasse-2 klasse-...&quot;</span><span class="kw">&gt;</span></span></code></pre></div>
 <p>Das ist nuetzlich wenn man z.B. eine Klasse hat fuer eine
 Schriftfarbe, eine fuer Hintergrundfarbe…</p>
 <p>Das ist so wie in Frameworks wie Bootstrap, oder ist allgemein ganz
