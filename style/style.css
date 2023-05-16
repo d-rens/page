@@ -1,10 +1,10 @@
+/*--background-color: #f5f5f5;
+--primary-color: #333;
+--secondary-color: #666;
+--tertiary-color: #999 ;
+--quaternary-color: #ccc;*/
 
 :root {
-    /*--background-color: #f5f5f5;
-    --primary-color: #333;
-    --secondary-color: #666;
-    --tertiary-color: #999 ;
-    --quaternary-color: #ccc;*/
     --background-color: #1a1b26;
     --primary-color: #a9b1d6;
     --secondary-color: #5883f3;
