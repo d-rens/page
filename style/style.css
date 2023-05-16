@@ -1,16 +1,15 @@
-/*
-  Color scheme
-  #f5f5f5
-  #333
-  #333
-  #666
-  #999
-  #ccc
-*/
+
+:root {
+    --background-color: #f5f5f5;
+    --primary-color: #333;
+    --secondary-color: #666;
+    --tertiary-color: #999 ;
+    --quaternary-color: #ccc;
+}
 
 body {
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: var(--background-color);
+  color: var(-primary-color);
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -24,19 +23,19 @@ article {
 }
 
 h1 {
-  color: #333;   
+  color: var(--primary-color);   
 }
 
 h2 {
-  color: #666;   
+  color: var(--secondary-color);   
 }
 
 h3 {
-  color: #999;
+  color: var(--tertiary-color);
 }
 
 h4 {
-  color: #ccc;
+  color: var(--quaternary-color);
 }
 
 dt {
