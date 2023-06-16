@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -80,6 +80,7 @@ footer {
   align-items: stretch;
   font-family: 'JetBrains Mono', monospace;
   font-weight: bold;
+  justify-content: center;
 }
 
 .card {
