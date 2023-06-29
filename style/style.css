@@ -13,12 +13,13 @@ body {
 }
 
 main {
-  max-width: 900px;
   margin: auto;
+  padding: 30px;
 }
 
 article {
   margin: auto;
+  max-width: 1000px
 }
 
 h1 {
@@ -137,8 +138,13 @@ footer {
     margin: auto;
 }
 
-.date {
+time {
     font-size: 7pt;
     font-family: monospace;
     color: var(--secondary-color);
+}
+
+br {
+   display: block;
+   margin: 10px 0;
 }
