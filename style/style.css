@@ -4,6 +4,8 @@
     --secondary-color: #5883f3;
     --tertiary-color: #ed656c;
     --quaternary-color: #9ac161;
+    --read: #ed9f0e;
+    --started: #ffdfbf;
 }
 
 body {
@@ -20,6 +22,14 @@ main {
 article {
   margin: auto;
   max-width: 1000px
+}
+
+footer {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  clear: both;
 }
 
 h1 {
@@ -61,17 +71,31 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+/* library */
+.library{
+    padding: 180px;
+}
+
 .unsorted {
   font-style: italic; 
 }
 
-footer {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  clear: both;
+.read {
+  color: var(--read);
+  font-weight: bold;
 }
+
+.started {
+  color: var(--started);
+}
+
+.e-book {
+  color: teal;
+}
+
+
+
+
 
 /* Following: Flexbox */
 
