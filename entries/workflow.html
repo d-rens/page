@@ -20,12 +20,6 @@
                 <img src="https://media.tenor.com/MRCIli40TYoAAAAi/under-construction90s-90s.gif">
             </figure>
 
-            <figure>
-                <a href="..pictures/workflow.png">
-                    <img src="../pictures/workflow.png">
-                </a>
-                <figcaption>screenshot of statistic notes</figcaption>
-            </figure>
 
 
             <h2>preface</h2>
@@ -38,37 +32,83 @@
             So one could say it's to write LaTeX. <br>
             <br>
 
+
+            <figure>
+                <a href="..pictures/workflow.png">
+                    <img src="../pictures/workflow.png">
+                </a>
+                <figcaption>screenshot of statistic notes</figcaption>
+            </figure>
+
+
             <h2>OS, programs, and everything else</h2>
 
             Around three months ago I haven't used any of those mentioned, and there are some good reasons why I sticked to them,
             even though they required more learning then common programs, but simple enough to get the basics down in a week or so. <br>
             <br>
             The main programs I use are:           
-            <dl>
-                <dt>neovim</dt>
-                <dd>Text editor, a fork of vim, just more modern, and mainly more extensible.</dd>
+            <h3>neovim</h3>
+            As texteditor, those are my plugins:
+            <ul>
+                <li>Packer as plugin manager </li>
+                <li>telescope as fuzzyfinder </li>
+                <li>bufferline to view buffers </li>
+                <li>tokyonight as theme </li>
+                <li>colorizor to see the color on hex codes  </li>
+                <li>catppuccin for when i need a light theme  </li>
+                <li>lualine as statusline  </li>
+                <li>web-devicons for lualine/icons in general  </li>
+                <li>codeium as ai autocompletion  </li>
+                <li>treesitter as syntax highlighting  </li>
+                <li>hapoon to switch files blazingly fast  </li>
+                <li>undotree to never use it </li>
+                <li>fugitive for git  </li>
+                <li>vimtex for latex compilation </li>
+                <li>ultisnips mainly for latex snippets  </li>
+                <li>lsp things (lspzero, mason, mason-lspconfig, cpm-buffer, nvim-cmp, cmp_luasnip ... </li>
+                <li>luasnip  </li>
+                <li>friendly-snippets  </li>
+            </ul>
 
-                <dt>inkscape</dt>
-                <dd>Vector drawing program. Using with an 
-                    <a href="https://github.com/d-rens/inkscape-shortcut-manager">inkscape shortcut</a> and 
-                    <a href="https://github.com/d-rens/inkscape-figures">figure manager</a>, which i forked of Giles Castel.</dd>
 
-                <dt>zathura</dt>
-                <dd>pdf viewer just works, and has vim like keybindings</dd>
-                </ul>
-                <br>
+            <h3>bspwm with sxhkd </h3>
+            These are window manager and hotkey daemon. <br>
+            Bspwm makes me 9 + 1 desktops, 9 on the laptop screen + 1 when a monitor is connected. <br>
+            Sxhkd makes it very easy to manage hotkeys, for the window manager, note taking scripts, opening apps, using rofi...
 
-                All those I am using on Archlinux with bspwm as window manager and sxhkd as hotkey daemon. <br>
-                Due to the programs and operating system it is most efficient, not needing a mouse other than to sometimes draw a figure.
-                <br>
-                For certain projects I am also required to use the 
-                <a href="https://affinity.serif.com/en-us/">Affinity Suite</a>,
-                or SolidWorks, for those I then use either MacOS or windows. 
-                On other computers either for processing power on a windows tower or the 
-                display on a macbook for color accuracy.
-                <br>
-                Both of those should also be able to be virtualized, but the advantages of the other 
-                computers are too good to consider that at the moment for me.
+
+            <h3>zotero</h3>
+            Zotero as citation manager.<br>
+            Addons I use are: Betterbibtex so it keeps an up to date .bib bibliography ready to use for latex, and also something to make the app dark.
+
+
+
+            <h3>misc </h3>
+            <!--<dl>
+            <dt>neovim</dt>
+            <dd>Text editor, a vim fork, more extensible.</dd>
+
+            <dt>inkscape</dt>
+            <dd>Vector drawing program. Using with an 
+            <a href="https://github.com/d-rens/inkscape-shortcut-manager">inkscape shortcut</a> and 
+            <a href="https://github.com/d-rens/inkscape-figures">figure manager</a>, which i forked of Giles Castel.</dd>
+
+            <dt>zathura</dt>
+            <dd>pdf viewer just works, and has vim like keybindings</dd>
+            </dl>-->
+            <br>
+
+            All those I am using on Archlinux with bspwm as window manager and sxhkd as hotkey daemon. <br>
+            Due to the programs and operating system it is most efficient, not needing a mouse other than to sometimes draw a figure.
+            <br>
+            For certain projects I am also required to use the 
+            <a href="https://affinity.serif.com/en-us/">Affinity Suite</a>
+            or SolidWorks, for those I then use either MacOS or windows. 
+            On other computers either for processing power on a windows tower or the 
+            display on a macbook for color accuracy.
+            <br>
+            Both of those should also be able to be virtualized, but the advantages of the other 
+            computers are too good to consider that at the moment for me.
 
 
 
@@ -78,9 +118,9 @@
         </article>
 
 
-</main>
+    </main>
 
-<footer> d-rens 2023 </footer>
+    <footer> d-rens 2023 </footer>
 </body>
 
-</html>
+    </html>
