@@ -1,4 +1,15 @@
 :root {
+    /*Catppuccin Mocha*/
+    --background-color: #1a1823;
+    --primary-color: #c9cbff;
+    --secondary-color: #96cdfb;
+    --tertiary-color: #f28fad;
+    --quaternary-color: #abe9b3;
+    --read: #f8bd96;
+    --started: #fae3b0;
+
+    /*
+    Tokyonight
     --background-color: #1a1b26;
     --primary-color: #a9b1d6;
     --secondary-color: #5883f3;
@@ -6,12 +17,13 @@
     --quaternary-color: #9ac161;
     --read: #ed9f0e;
     --started: #ffdfbf;
+    */
 }
 
 body {
   background-color: var(--background-color);
   color: var(--primary-color);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Fira Sans, Helvetica, Arial, sans-serif;
 }
 
 main {
