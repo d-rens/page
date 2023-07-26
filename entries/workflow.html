@@ -16,101 +16,125 @@
         </a>
 
         <article>
-            <figure class="in-construction">
-                <img src="https://media.tenor.com/MRCIli40TYoAAAAi/under-construction90s-90s.gif">
-            </figure>
+
+            <h2>goals of the setup</h2>
+            <p>The goal of the workflow is to be ever evolving to be more efficient and useful. The main application is to write LaTeX,
+            manage references, figures, etc. So that one does not need to think about it anymore but has a good experience using it
+            and optimal output.</p>
+
+
+            <h3>LaTeX</h3>
+            <p>LaTeX is a typesetting software that makes digital typesetting easy and
+            visually appealing. However, there is a little entry barrier because you need
+            to know commands to use it. Nevertheless, everything is generally logical and
+            makes sense.</p>
+
+            <p>Personally, I have a lot of fun using it, and it often motivates me to get work
+            done instead of being a hindrance like Word. I don't want to focus solely on
+            why Word is bad, but here's a nice way to compare them: In Word, you set your
+            text while typing, and you only see the 'finished' text. Consequently, while
+            writing, you might do it naturally or, to procrastinate, start to format
+            everything. Then, when you move a figure, there is the possibility that
+            everything gets messed up. </p>
+
+            <p>On the other hand, with LaTeX, you just write in plain text using, for example,
+            Vim (which also makes it more enjoyable to use). You see the text with commands
+            within it, and you focus on writing content without worrying about how it
+            looks. When you want to add a footnote, you simply use '\footnote{}' and input
+            the content. There are no style considerations to think about, but it still
+            yields a sense of logical structure, resulting in the best and most perfect
+            outcome from my experience. </p>
+
+            <p>Another thing, things like bibliographies are made nearly automatically, I
+            luckily have never written a bibliography myself, but seeing people actually
+            doing it, or 'just' copying it from somewhere for every single citation they
+            have seems most horrible.</p>
 
 
 
-            <h2>preface</h2>
+            <h4> Inkscape</h4>
+            <p>Inkscape is a vector tool used for creating and editing vector graphics. I use
+            it with LaTeX to make some of my mathematical figures. It's open-source,
+            which is appealing, and it's also extensible. As extensions, I use a figure
+            manager that seamlessly integrates with LaTeX without any extra thinking.
+            Additionally, I use a shortcut manager that allows me to have different stroke
+            strengths, fill colors, arrow endings, etc., readily available with just a
+            keystroke in the app. This convenience reduces the need for excessive mouse
+            usage.</p>
 
-            First of all, my workflow is aimed towards doing maths, and only maths basically. I have a bunch of other subjects, but
-            they either not ought to be noted due to being useless, or are basically the same as math, just with some
-            real-life-applications, as physics.<br>
+            <h3>Neovim</h3>
+            <p>Neovim is my text editor of choice for several reasons:</p>
 
-            <br>
-            So one could say it's to write LaTeX. <br>
-            <br>
-
-
-            <figure>
-                <a href="..pictures/workflow.png">
-                    <img src="../pictures/workflow.png">
-                </a>
-                <figcaption>screenshot of statistic notes</figcaption>
-            </figure>
-
-
-            <h2>OS, programs, and everything else</h2>
-
-            Around three months ago I haven't used any of those mentioned, and there are some good reasons why I sticked to them,
-            even though they required more learning then common programs, but simple enough to get the basics down in a week or so. <br>
-            <br>
-            The main programs I use are:           
-            <h3>neovim</h3>
-            As texteditor, those are my plugins:
+            <p>
             <ul>
-                <li>Packer as plugin manager </li>
-                <li>telescope as fuzzyfinder </li>
-                <li>bufferline to view buffers </li>
-                <li>tokyonight as theme </li>
-                <li>colorizor to see the color on hex codes  </li>
-                <li>catppuccin for when i need a light theme  </li>
-                <li>lualine as statusline  </li>
-                <li>web-devicons for lualine/icons in general  </li>
-                <li>codeium as ai autocompletion  </li>
-                <li>treesitter as syntax highlighting  </li>
-                <li>hapoon to switch files blazingly fast  </li>
-                <li>undotree to never use it </li>
-                <li>fugitive for git  </li>
-                <li>vimtex for latex compilation </li>
-                <li>ultisnips mainly for latex snippets  </li>
-                <li>lsp things (lspzero, mason, mason-lspconfig, cpm-buffer, nvim-cmp, cmp_luasnip ... </li>
-                <li>luasnip  </li>
-                <li>friendly-snippets  </li>
+                <li> Firstly, it's more extensible and easier to understand than Vim (for this article: vim = neovim). </li>
+                <li> Secondly, Vim is highly efficient once you learn it. </li>
             </ul>
+            </p>
+
+            <p>Vim maps every letter on the keyboard, and while non-/ and capitalized
+            letters require certain keys to enter insert mode for writing text, as long
+            as you are not in insert mode, you can navigate and edit a text file or
+            document using the entire keyboard. This allows for faster editing compared
+            to any other text editor. Admittedly, it takes some time to get used to, but
+            the skills I've gained from learning Vim have been tremendously beneficial,
+            as mentioned in the LaTeX section.</p>
+            <p> It's a lot of fun to use.</p>
 
 
-            <h3>bspwm with sxhkd </h3>
-            These are window manager and hotkey daemon. <br>
-            Bspwm makes me 9 + 1 desktops, 9 on the laptop screen + 1 when a monitor is connected. <br>
-            Sxhkd makes it very easy to manage hotkeys, for the window manager, note taking scripts, opening apps, using rofi...
+            <h3>Zotero</h3>
+            <p>Zotero is one of the programs I enjoy less due to its heavy GUI-based nature.
+            However, its convenience makes me continue using it, which speaks highly of its
+            usefulness. </p>
+
+            <p>Zotero is a reference management software used to gather references such as
+            papers, articles, books, etc., for academic research. It allows users to view,
+            annotate, export bibliography citations, and perform other functions. </p>
+
+            <p>Personally, I use Zotero for three main purposes:
+            <ul>
+                <li> Using the browser extension to add sources with just one click. </li>
+                <li> Automatically writing all citations into a .bib file every two seconds for BibLaTeX to use. </li>
+                <li> Being able to cite these sources in LaTeX without any problems or hassle. </li>
+            </ul>
+            </p>
 
 
-            <h3>zotero</h3>
-            Zotero as citation manager.<br>
-            Addons I use are: Betterbibtex so it keeps an up to date .bib bibliography ready to use for latex, and also something to make the app dark.
+            <h3>Obsidian</h3>
+            <p>Lastly, I use Obsidian because I did not have a good system to take care of my
+            plain-text notes. Obsidian seems to be a good alternative. </p>
 
+            <p>But I do use it fully in Neovim with a plugin, so it is enjoyable to use. Here
+            are some features which I enjoy:</p>
+            <p>
+            <ul>
+                <li>  Write everything in markdown. </li>
+                <li>  Have automatically daily notes (accessible with a hotkey in my config). </li>
+                <li>  Reference different notes. </li>
+                <li>  Show a graph to display links between notes. </li>
+                <li>  Use templates. </li>
+            </ul>
+            </p>
 
+            <h2>conclusion</h2>
+            <p>
+            There is one initial problem I have with the setup, which is the setup is perfectly optimized to write papers and do
+            reasearch, but at the moment I have as good as nothing to do with that. </p>
 
-            <h3>misc </h3>
-            <!--<dl>
-            <dt>neovim</dt>
-            <dd>Text editor, a vim fork, more extensible.</dd>
+            <p>
+            This is the taking notes part of the setup, later in Part 2 I'll talk abuot the bigger system: tiling window manager,
+            hotkey deamon, etc. </p>
 
-            <dt>inkscape</dt>
-            <dd>Vector drawing program. Using with an 
-            <a href="https://github.com/d-rens/inkscape-shortcut-manager">inkscape shortcut</a> and 
-            <a href="https://github.com/d-rens/inkscape-figures">figure manager</a>, which i forked of Giles Castel.</dd>
+            <p>If you have any questions, ideas or other things you want to mention, you can contact me at:</p>
+            <p><a href="mailto:contact@d-rens.site?subject=Web%20page%20contact%20link"><i>contact@d-rens.site</i></a>.</p>
 
-            <dt>zathura</dt>
-            <dd>pdf viewer just works, and has vim like keybindings</dd>
-            </dl>-->
-            <br>
-
-            All those I am using on Archlinux with bspwm as window manager and sxhkd as hotkey daemon. <br>
-            Due to the programs and operating system it is most efficient, not needing a mouse other than to sometimes draw a figure.
-            <br>
-            For certain projects I am also required to use the 
-            <a href="https://affinity.serif.com/en-us/">Affinity Suite</a>
-            or SolidWorks, for those I then use either MacOS or windows. 
-            On other computers either for processing power on a windows tower or the 
-            display on a macbook for color accuracy.
-            <br>
-            Both of those should also be able to be virtualized, but the advantages of the other 
-            computers are too good to consider that at the moment for me.
-
-
+            <h4> references </h4>
+            <p>
+            <ol>
+                <li><p><a href="https://github.com/d-rens/dotfiles">dotfiles</a></p> </li>
+                <li><p><a href="https://github.com/d-rens/inkscape-shortcut-manager">inkscape-shortcut-manager</a></p>
+            </ol>
+            </p>
 
 
 
