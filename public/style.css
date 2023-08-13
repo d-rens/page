@@ -87,3 +87,7 @@ figure {
  max-width: 600px; 
 }
 
+time {
+    font-size: 9pt; font-family: monospace; color: var(--secondary-color);
+}
+

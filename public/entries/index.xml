@@ -1,13 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>daniels webpage</title>
-	<link>https://d-rens.site/</link>
-	<description>Recent content on daniels webpage</description>
+	<link>https://d-rens.site/entries/</link>
+	<description>Recent content in Entries on daniels webpage</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Wed, 26 Jul 2023 12:10:19 +0200</lastBuildDate>
     
-        <atom:link href="https://d-rens.site/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://d-rens.site/entries/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
