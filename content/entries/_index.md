@@ -1,0 +1,6 @@
+---
+title: "Entries"
+---
+
+{{< posts-sorted >}}
+

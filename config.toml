@@ -1,0 +1,6 @@
+baseURL = 'https://d-rens.site/'
+languageCode = 'en-us'
+title = "daniels webpage"
+
+theme = 'dugo'
+

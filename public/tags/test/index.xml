@@ -1,0 +1,79 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>my homepage</title>
+	<link>https://example.org/tags/test/</link>
+	<description>Recent content in test on my homepage</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Mon, 11 Jul 2022 18:10:07 -0400</lastBuildDate>
+    
+        <atom:link href="https://example.org/tags/test/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Testing</title>
+		<link>https://example.org/testing/</link>
+		<pubDate>Thu, 10 Aug 2023 15:49:40 +0200</pubDate>
+		
+		<guid>https://example.org/testing/</guid>
+		<description>&lt;p&gt;hier ist der inhalt&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Blogpost</title>
+		<link>https://example.org/blogpost/</link>
+		<pubDate>Thu, 10 Aug 2023 15:48:06 +0200</pubDate>
+		
+		<guid>https://example.org/blogpost/</guid>
+		<description>&lt;p&gt;Here is my new blogpost&lt;/p&gt;
+&lt;p&gt;See my &lt;a href=&#34;https://example.org/about&#34;&gt;about page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.org/pic.png&#34; alt=&#34;myimage&#34;&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Test</title>
+		<link>https://example.org/test/</link>
+		<pubDate>Thu, 10 Aug 2023 15:47:05 +0200</pubDate>
+		
+		<guid>https://example.org/test/</guid>
+		<description>&lt;p&gt;Here is a test.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Auto</title>
+		<link>https://example.org/auto/</link>
+		<pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+		
+		<guid>https://example.org/auto/</guid>
+		<description>&lt;p&gt;This is my auto.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>About</title>
+		<link>https://example.org/about/</link>
+		<pubDate>Mon, 11 Jul 2022 18:10:07 -0400</pubDate>
+		
+		<guid>https://example.org/about/</guid>
+		<description>&lt;p&gt;Here is some content. This is all in markdown.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;test&lt;/li&gt;
+&lt;li&gt;test&lt;/li&gt;
+&lt;li&gt;tes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;dl&gt;
+&lt;dt&gt;Dictionary&lt;/dt&gt;
+&lt;dd&gt;test&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;ol&gt;
+&lt;li&gt;test&lt;/li&gt;
+&lt;li&gt;testsetset&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

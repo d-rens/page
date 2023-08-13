@@ -1,0 +1,195 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>my homepage</title>
+	<link>https://example.org/</link>
+	<description>Recent content in daniels webpage on my homepage</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Workflow</title>
+		<link>https://example.org/workflow/</link>
+		<pubDate>Sun, 13 Aug 2023 12:10:19 +0200</pubDate>
+		
+		<guid>https://example.org/workflow/</guid>
+		<description>&lt;h2 id=&#34;goals-of-the-setup&#34;&gt;goals of the setup&lt;/h2&gt;
+&lt;p&gt;The goal of the workflow is to be ever evolving to be more efficient and
+useful. The main application is to write LaTeX, manage references,
+figures, etc. So that one does not need to think about it anymore but
+has a good experience using it and optimal output.&lt;/p&gt;
+&lt;h3 id=&#34;latex&#34;&gt;LaTeX&lt;/h3&gt;
+&lt;p&gt;LaTeX is a typesetting software that makes digital typesetting easy and
+visually appealing. However, there is a little entry barrier because you
+need to know commands to use it. Nevertheless, everything is generally
+logical and makes sense.&lt;/p&gt;
+&lt;p&gt;Personally, I have a lot of fun using it, and it often motivates me to
+get work done instead of being a hindrance like Word. I don&#39;t want to
+focus solely on why Word is bad, but here&#39;s a nice way to compare them:
+In Word, you set your text while typing, and you only see the
+&#39;finished&#39; text. Consequently, while writing, you might do it
+naturally or, to procrastinate, start to format everything. Then, when
+you move a figure, there is the possibility that everything gets messed
+up.&lt;/p&gt;
+&lt;p&gt;On the other hand, with LaTeX, you just write in plain text using, for
+example, Vim (which also makes it more enjoyable to use). You see the
+text with commands within it, and you focus on writing content without
+worrying about how it looks. When you want to add a footnote, you simply
+use &#39;\footnote{}&#39; and input the content. There are no style
+considerations to think about, but it still yields a sense of logical
+structure, resulting in the best and most perfect outcome from my
+experience.&lt;/p&gt;
+&lt;p&gt;Another thing, things like bibliographies are made nearly automatically,
+I luckily have never written a bibliography myself, but seeing people
+actually doing it, or &#39;just&#39; copying it from somewhere for every
+single citation they have seems most horrible.&lt;/p&gt;
+&lt;h4 id=&#34;inkscape&#34;&gt;Inkscape&lt;/h4&gt;
+&lt;p&gt;Inkscape is a vector tool used for creating and editing vector graphics.
+I use it with LaTeX to make some of my mathematical figures. It&#39;s
+open-source, which is appealing, and it&#39;s also extensible. As
+extensions, I use a figure manager that seamlessly integrates with LaTeX
+without any extra thinking. Additionally, I use a shortcut manager that
+allows me to have different stroke strengths, fill colors, arrow
+endings, etc., readily available with just a keystroke in the app. This
+convenience reduces the need for excessive mouse usage.&lt;/p&gt;
+&lt;h3 id=&#34;neovim&#34;&gt;Neovim&lt;/h3&gt;
+&lt;p&gt;Neovim is my text editor of choice for several reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firstly, it&#39;s more extensible and easier to understand than Vim (for this article: vim = neovim).&lt;/li&gt;
+&lt;li&gt;Secondly, Vim is highly efficient once you learn it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vim maps every letter on the keyboard, and while non- and capitalized
+letters require certain keys to enter insert mode for writing text, as
+long as you are not in insert mode, you can navigate and edit a text
+file or document using the entire keyboard. This allows for faster
+editing compared to any other text editor. Admittedly, it takes some
+time to get used to, but the skills I&#39;ve gained from learning Vim have
+been tremendously beneficial, as mentioned in the LaTeX section.&lt;/p&gt;
+&lt;p&gt;It&#39;s a lot of fun to use.&lt;/p&gt;
+&lt;h3 id=&#34;zotero&#34;&gt;Zotero&lt;/h3&gt;
+&lt;p&gt;Zotero is one of the programs I enjoy less due to its heavy GUI-based
+nature. However, its convenience makes me continue using it, which
+speaks highly of its usefulness.&lt;/p&gt;
+&lt;p&gt;Zotero is a reference management software used to gather references such
+as papers, articles, books, etc., for academic research. It allows users
+to view, annotate, export bibliography citations, and perform other
+functions.&lt;/p&gt;
+&lt;p&gt;Personally, I use Zotero for three main purposes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using the browser extension to add sources with just one click.&lt;/li&gt;
+&lt;li&gt;Automatically writing all citations into a .bib file every two seconds for BibLaTeX to use.&lt;/li&gt;
+&lt;li&gt;Being able to cite these sources in LaTeX without any problems or hassle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h3&gt;
+&lt;p&gt;Lastly, I use Obsidian because I did not have a good system to take care
+of my plain-text notes. Obsidian seems to be a good alternative.&lt;/p&gt;
+&lt;p&gt;But I do use it fully in Neovim with a plugin, so it is enjoyable to
+use. Here are some features which I enjoy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write everything in markdown.&lt;/li&gt;
+&lt;li&gt;Have automatically daily notes (accessible with a hotkey in my
+config).&lt;/li&gt;
+&lt;li&gt;Reference different notes.&lt;/li&gt;
+&lt;li&gt;Show a graph to display links between notes.&lt;/li&gt;
+&lt;li&gt;Use templates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;conclusion&lt;/h2&gt;
+&lt;p&gt;There is one initial problem I have with the setup, which is the setup
+is perfectly optimized to write papers and do reasearch, but at the
+moment I have as good as nothing to do with that.&lt;/p&gt;
+&lt;p&gt;This is the taking notes part of the setup, later in Part 2 I&#39;ll talk
+abuot the bigger system: tiling window manager, hotkey deamon, etc.&lt;/p&gt;
+&lt;p&gt;If you have any questions, ideas or other things you want to mention,
+you can contact me at:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:contact@d-rens.site?subject=Web%20page%20contact%20link&#34;&gt;&lt;em&gt;contact@d-rens.site&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;references&#34;&gt;references&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/d-rens/dotfiles&#34;&gt;dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/d-rens/inkscape-shortcut-manager&#34;&gt;inkscape-shortcut-manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;updates&#34;&gt;updates&lt;/h4&gt;
+&lt;p&gt;This will this be constantly updated, the things you can expect to get
+added soon are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tmux&lt;/li&gt;
+&lt;li&gt;zettelkasten for notes&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Rss</title>
+		<link>https://example.org/rss/</link>
+		<pubDate>Sun, 13 Aug 2023 10:16:26 +0200</pubDate>
+		
+		<guid>https://example.org/rss/</guid>
+		<description>&lt;p&gt;In times of constant notifications, information and news it is hard to
+keep up with your actual interest.&lt;/p&gt;
+&lt;p&gt;Let me take Instagram as an exmample, I assume it is very similar on
+other &amp;ldquo;social-media&amp;rdquo;, you have that concept of a feed, with maybe 50%
+of what you follow, 25% of algorithmically advertised posts and finally
+a quarter of ads.&lt;/p&gt;
+&lt;p&gt;I find that to be a most horrible thing out of multible reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;algorithmically made suggestions are the pure evil to get you to get hooked and watch more ads&lt;/li&gt;
+&lt;li&gt;ads are annoying&lt;/li&gt;
+&lt;li&gt;you miss out on what you initially opened the app for&lt;/li&gt;
+&lt;li&gt;if something is free, mostly you are the product&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You probably get the point by now. It is not the aim of this post to
+discuss the use of social-media, I just had to get something to compare
+with.&lt;/p&gt;
+&lt;p&gt;RSS (Really Simple Syndication) is a protocol that is basically the
+solution. It is around since 1999 and is still around due to just being
+incredibly good, I often heard about it in tech spaces but it seems to
+not be in the &amp;ldquo;mainstream&amp;rdquo; altough it should.&lt;/p&gt;
+&lt;p&gt;It works so that you just have a link to a feed which you can
+&amp;ldquo;subscribe to&amp;rdquo; just by adding it to your feed.&lt;/p&gt;
+&lt;p&gt;e.g. &lt;a href=&#34;https://www.lagedernation.org/rss&#34;&gt;https://www.lagedernation.org/rss&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://example.org/rss-1.png&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;feed list&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://example.org/rss-2.png&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;feed post&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For me the rule of thumb is: either it has RSS, or it doesn&amp;rsquo;t, and if
+not, then I don&amp;rsquo;t bother with it.
+Saves time and figuring around ways to get it into RSS.&lt;/p&gt;
+&lt;h2 id=&#34;apps-to-use-it&#34;&gt;Apps to use it&lt;/h2&gt;
+&lt;p&gt;I use newsboat as command line application, it&amp;rsquo;s minimalistic and just works.
+On phone and mac I have used &amp;ldquo;NetNewsWire: RSS Reader&amp;rdquo; before,
+it also has an account feature so you can sync the feeds across your
+devices. But due to having had RSS feeds that just spam all the time and
+having it on the phone I found it to be rather a distraction than a
+tool, so I got rid of the annoying feeds and the RSS app on the phone.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-find-rss-feeds&#34;&gt;How to find RSS feeds&lt;/h2&gt;
+&lt;p&gt;The easiest way is to just find an RSS Icon, you can see one at the very bottom of this website.&lt;/p&gt;
+&lt;p&gt;On most big websites, you can mostly just add &amp;ldquo;feed&amp;rdquo; to the end and
+get a link that you can input in your reader or open automatically in an
+RSS app.&lt;/p&gt;
+&lt;p&gt;If that does not work you can just search for the name of the website
+and &amp;ldquo;feed&amp;rdquo; on your search engine to get a link or even multible for
+sub topics to choose from.&lt;/p&gt;
+&lt;p&gt;On youtube you need the following url and just put in the channel_id in
+the reserved space, you can use a website to get the URL, or get it
+another way.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID_HERE&#34;&gt;https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID_HERE&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;feeds-to-get-started&#34;&gt;Feeds to get started&lt;/h2&gt;
+&lt;p&gt;I have some blogs in there which I enjoy, youtube channels,
+news portals and podcasts, I also had journals like arxiv-math for some
+time in there, but then I recalled that I didn&amp;rsquo;t understand anything there.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;In conclusion, I highly recommend it, it just makes life easier and
+better.&lt;/p&gt;
+&lt;p&gt;Have a nice day.&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
