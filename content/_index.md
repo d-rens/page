@@ -9,4 +9,3 @@ Structure: first some links to other pages, then entries to recent additions.
 - [contact](/contact) 
 
 ### latest additions:
-- see more in 
