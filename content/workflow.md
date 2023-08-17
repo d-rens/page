@@ -12,11 +12,15 @@ make a workflow diagram, maybe with xmind/LaTeX
 
 
 
-# goals of the setup
+# About the setup
 The goal of the workflow is to be ever evolving to be more efficient and
-useful. The main application is to write LaTeX, manage references,
+useful. The main application is to write LaTeX documents, manage references,
 figures, etc. So that one does not need to think about it anymore but
 has a good experience using it and optimal output.
+
+The applications used are explained in the following, the more experienced will find the following graph helpful.
+
+{{< figure src="/workflow-mindmap.png" title="mindmap to show usage" >}} 
 
 ## [LaTeX](https://en.wikipedia.org/wiki/LaTeX)
 LaTeX is a typesetting software that makes digital typesetting easy and
