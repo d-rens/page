@@ -5,6 +5,24 @@ mod: 2023-08-09T12:10:19+02:00
 tags: ['technology']
 ---
 
+<!-- todo
+pictures finding:
+- LaTeX
+- Inkscape
+  - maybe the interface
+- Neovim
+  - just a picture of some bibliography maybe, which then can also be used for the .bib thing
+- Zotero
+  - interface
+- Obsidian
+  - graph/interface
+
+make a workflow diagram, maybe with xmind/LaTeX
+-->
+
+
+
+
 # goals of the setup
 The goal of the workflow is to be ever evolving to be more efficient and
 useful. The main application is to write LaTeX, manage references,
