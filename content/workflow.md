@@ -5,20 +5,15 @@ mod: 2023-08-09T12:10:19+02:00
 tags: ['technology']
 ---
 
-<!-- todo
-make a workflow diagram, maybe with xmind/LaTeX
--->
-
-
-
 
 # About the setup
 The goal of the workflow is to be ever evolving to be more efficient and
-useful. The main application is to write LaTeX documents, manage references,
+useful. The main application of it is to write LaTeX documents, manage references,
 figures, etc. So that one does not need to think about it anymore but
-has a good experience using it and optimal output.
+has a good experience using it and the optimal output.
 
-The applications used are explained in the following, the more experienced will find the following graph helpful.
+The applications used are explained in the following post, the more experienced
+will find the following graph helpful.
 
 {{< figure src="/workflow-mindmap.png" title="mindmap to show usage" >}} 
 
@@ -32,23 +27,22 @@ barrier/outcome see the following graph:
 {{< figure src="https://i.redd.it/t8qlcxzet9191.png" title="time to create-complexity comparison" >}} 
 
 The graph should illustrate that the entry barrier is harder, so people mostly
-prefer using word, but in the long time, and at everything containing formulas,
-pictures and more than a page LaTeX is should be prefered.
+prefer using word like software, but on the long time, and at everything containing formulas,
+pictures and more than a page LaTeX should be preferred for ones own sake.
 
 Personally, I have a lot of fun using it, and it often motivates me to
 get work done instead of being a hindrance like Word. I don\'t want to
 focus solely on why Word is bad, but here\'s a nice way to compare them:
-In Word, you set your text while typing, and you only see the
-\'finished\' text. Consequently, while writing, you might do it
-naturally or, to procrastinate, start to format everything. Then, when
-you move a figure, there is the possibility that everything gets messed
-up.
+>In Word, you typeset your text while typing, and you only see the \'finished\'
+>text. Consequently, while writing, you might do it naturally or, to
+>procrastinate, start to format everything. Then, when you move a figure, there
+>is the possibility that everything gets messed up.
 
 On the other hand, with LaTeX, you just write in plain text using, for
 example, Vim (which also makes it more enjoyable to use). You see the
 text with commands within it, and you focus on writing content without
 worrying about how it looks. When you want to add a footnote, you simply
-use \'\\footnote{}\' and input the content. There are no style
+use `\footnote{}` and input the content. There are no style
 considerations to think about, but it still yields a sense of logical
 structure, resulting in the best and most perfect outcome from my
 experience.
