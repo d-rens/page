@@ -91,3 +91,7 @@ time {
     font-size: 9pt; font-family: monospace; color: var(--secondary-color);
 }
 
+code {
+    color: #abe9b3;
+}
+
