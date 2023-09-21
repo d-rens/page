@@ -1,11 +1,11 @@
 {{ if or .Next .Prev -}}
 <hr style="color: var(--primary-color); max-width: 700px;">
 <div id="nextprev">
-{{- with .Prev }}
-<a href="{{ .RelPermalink}}"><div id="prevart">Previous:<br>{{.Title}}</div></a>
-{{ end -}}
-{{- with .Next -}}
-<a href="{{ .RelPermalink}}"><div id="nextart">Next:<br>{{.Title}}</div></a>
-{{ end -}}
+    {{- with .Prev }}
+    <a href="{{ .RelPermalink}}"><div id="prevart">Previous:<br>{{.Title}}</div></a>
+    {{ end -}}
+    {{- with .Next -}}
+    <a href="{{ .RelPermalink}}"><div id="nextart">Next:<br>{{.Title}}</div></a>
+    {{ end -}}
 </div>
 {{ end -}}
