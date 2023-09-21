@@ -1,6 +1,7 @@
 ---
 title: "Workflow"
 date: 2023-07-26T12:10:19+02:00
+lastmod: 2023-09-21T15:22:19+02:00
 mod: 2023-08-09T12:10:19+02:00
 tags: ['technology']
 ---
@@ -15,7 +16,44 @@ has a good experience using it and the optimal output.
 The applications used are explained in the following post, the more experienced
 will find the following graph helpful.
 
-{{< figure src="/workflow-mindmap.png" title="mindmap to show usage" >}} 
+
+```goat
+                       .----------.                                      
+                       | my ideas |                   
+                       '----.-----'                   .---------------. 
+                            |                         | others' ideas |
+                            |                         '-------.-------' 
+                            v                                 |        
+                       .---------.                            |
+                      | Obsidian  |<---.                      v         
+                      | (in nvim) |     \               .--------------. 
+                       '----.----'       '-------------+ papers & books |
+                            |     ^     through         '-----.--------'
+                            |      \    annotations           |          
+                            |       \   & notes              /           
+                            |        \                      /            
+                            v         \                    /             
+ .--------.        .----------------.  \      when clicking on zotero    
+| final    |       | novel thoughts |   \      extension or manually     
+| piece of |      /'----------------'    \              |       
+| writing  |     /                        \             |                
+ '--------'     /                 script adds notes     |                
+     ^      .--'                 with cit-key as name   v                
+     |     / through                           \         .------.        
+     |    /  writing                            .-------+ Zotero |       
+     |   /                                      |        '------'        
+     |  /                                automatically with              
+     | |                               better-bibtex-extension
+     | v                                       .
+ .---.---.                   .-----------.    /                          
+ | LaTeX |<-----------------+ BibTeX file |<-'
+ '-------'   automatically   '-----------'
+              referable                               
+
+
+
+                     mindmap to illustrate use 
+```
 
 ## [LaTeX](https://en.wikipedia.org/wiki/LaTeX)
 LaTeX is a typesetting software that makes digital typesetting easy and
