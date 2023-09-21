@@ -21,6 +21,10 @@
 
     <main>
         <a style="text-decoration: none;" href="{{ .Site.BaseURL }}"><header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header></a>
+
+        <p style="font-size: 5pt;">Created on: {{ .Date.Format "Jan 2 2006" }}<br>
+        Last modified on: {{ .Lastmod.Format "Jan 2 2006" }}</p>
+
         <article>
             {{ block "main" . }}
             {{ .Content }}

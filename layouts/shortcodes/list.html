@@ -2,7 +2,8 @@
 {{ .Title | title }}
 {{- end }}
 {{ define "main" -}}
-{{ .Content }}
+
+{ .Content }}
 <ul>
 {{- range .Site.RegularPages.ByDate.Reverse first 3 .Pages }}
 <li>
