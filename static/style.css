@@ -27,6 +27,14 @@ img {
 	max-width: 80%;
 }
 
+hr {
+    background-color: var(--primary-color);
+}
+ 
+a {
+    text-decoration: none;
+}
+
 header h1 {
 	text-align: center ;
     color: var(--primary-color);
@@ -91,14 +99,11 @@ time {
     font-size: 9pt; font-family: monospace; color: var(--secondary-color);
 }
 
-<<<<<<< HEAD
 code {
     color: #abe9b3;
 }
 
-=======
 .date-list {
     font-size: 7pt;
     color: black;
 }
->>>>>>> 03c9092 (minor changes)
