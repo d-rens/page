@@ -1,5 +1,6 @@
 {{ range .Site.RegularPages.ByDate.Reverse}}
 <h4><a style="text-decoration: none; color: tan;" href="{{ .RelPermalink }}"> {{ .Title }} </a></h4>
+ 
 <h5>{{ .Date.Format "Jan, 02  2006" }} </h5>
 {{ .Summary }}
 {{ if .Truncated }}
