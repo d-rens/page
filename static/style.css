@@ -31,8 +31,12 @@ hr {
     background-color: var(--primary-color);
 }
  
+a:visited {
+    color: darksalmon;
+}
+
 a {
-    text-decoration: none;
+    color: salmon;
 }
 
 header h1 {
