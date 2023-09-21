@@ -1,7 +1,8 @@
 ---
 title: "Dactyl"
 date: 2023-09-21T08:31:14+02:00
-tag: keyboard, technology, project
+lastmod: 2023-09-21T15:31:14+02:00 
+tag: ['technology']
 draft: true
 ---
 
@@ -24,6 +25,7 @@ vertically. For clarification, there was a use for the staggered rows back in
 the ages of typewriters due to how they were constructed, but now many decades
 later we still carry the technical dept around with us [^1] *(that's like if one were
 to use windows).* 
+
 
 
 
