@@ -1,7 +1,7 @@
 ---
 title: "Rss"
 date: 2023-07-18T10:16:26+02:00
-tags: ['technology']
+tag: technology
 ---
 
 In times of constant notifications, information and news it is hard to
