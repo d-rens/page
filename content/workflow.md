@@ -2,7 +2,6 @@
 title: "Workflow"
 date: 2023-07-26T12:10:19+02:00
 lastmod: 2023-09-21T15:22:19+02:00
-mod: 2023-08-09T12:10:19+02:00
 tags: ['technology']
 ---
 
@@ -35,10 +34,10 @@ will find the following graph helpful.
                             v         \                    /             
  .--------.        .----------------.  \      when clicking on zotero    
 | final    |       | novel thoughts |   \      extension or manually     
-| piece of |      /'----------------'    \              |       
-| writing  |     /                        \             |                
- '--------'     /                 script adds notes     |                
-     ^      .--'                 with cit-key as name   v                
+| piece of |      /'----------------'    \                 |       
+| writing  |     /                        \                |                
+ '--------'     /                 script adds notes        |                
+     ^      .--'                 with cit-key as name      v                
      |     / through                           \         .------.        
      |    /  writing                            .-------+ Zotero |       
      |   /                                      |        '------'        
