@@ -39,14 +39,14 @@ a {
     color: salmon;
 }
 
+strong {
+   color: var(--secondary-color);
+}
+
 header h1 {
 	text-align: center ;
     color: var(--primary-color);
 }
-
-/*h1, h2, h3, h4, h5, h6 {
-    margin-left: 20px;
-}*/
 
 
 h1 {
@@ -110,4 +110,8 @@ code {
 .date-list {
     font-size: 7pt;
     color: black;
+}
+
+.footnotes ol {
+    font-size: 7pt;
 }
