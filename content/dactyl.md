@@ -8,6 +8,8 @@ draft: true
 
 # The Dactyl Experience
 
+<!--#############################picture-->
+
 ## Preface 
 During the last days and weeks I've spend some of my time soldering,
 configuring and figuring about a dactyl keyboard. Now it is done and I can now
@@ -17,11 +19,14 @@ will talk about the process and maybe you can get something out of it :).
 A dactyl - or dactyl manuform - keyboard is a parametric generated keyboard
 with the following ergonomic features to make it great to use:
 
+
 **Split**
 : Allows one to keep the hands on shoulderwidth or further which makes it
   convenient to use over long time.
+<!--#############################drawing-->
 
 <p>&nbsp;</p>
+
 
 **Staggered Columns**
 : If you look at your keyboard the rows are most likely staggered, if you then
@@ -30,15 +35,18 @@ with the following ergonomic features to make it great to use:
   the ages of typewriters due to how they were constructed, but now many decades
   later we still carry the technical dept around with us [^1] *(that's like if
   one were to use windows).* 
+<!--#############################drawing-->
 
 <p>&nbsp;</p>
 
 **Thumb cluster**
 : One of the things I still got very annoyed at after many years of typing is
   the following:
+<!--#############################drawing-->
 
-    - Two pinkies are supposed to handle ~24 keys together.
-    - Two thumbs are supposed to handle 1!
+
+  - Two pinkies are supposed to handle ~24 keys together.
+  - Two thumbs are supposed to handle 1!
 : This I would argue is inherently nonsense. The pinky's range of motion is
   biologically-wise the most restricted and weak, whereas the thumbs range is
   bigger and able to be multiple times stronger [^2].
@@ -47,8 +55,10 @@ with the following ergonomic features to make it great to use:
   will again mention it in my thoughts on the layout I made.
 
 
+<!--################ some way to bridge ###################-->
 
-## Building
+
+## Preparing
 
 ### Parts
 
@@ -59,20 +69,27 @@ with the following ergonomic features to make it great to use:
 
 **To be bought**
 - cables (cabels I've used were extracted out of 1,2m network cable)
-- around 80 switches
-- around 80 keycaps 
+- around 80 switches (opted for Gateron white)
+- around 80 keycaps (without profile[^3], e.g. xda)
 - two Arduino-Pro-Micros
 - two extra switches to reset the Pro-Micros
 - jack cable (size variable to fit your need)
 - twelve threaded inserts
 
+### Testing parts
+There was just one part which I've tested and that were the switches, I did not trust them 
+a lot due to being of aliexpress, but they are very good and appear to be real Gaterons.
 
-## Preparing
+I have tested them by testing if current is able to flow when being pressed, it
+did work on every switch :).
+
+## Building
 
 ### Printing
+<!--#############################picture if available-->
 To print the case with bottomplate one needs to setup a clojure environment
 which than takes parameters to calculate the model as SCAD file. To figure the
-clojure part out I've used (this tutorial)[https://youtu.be/CxNKWNKBLMs?si=DzsP05Oc1_6IBStr].
+clojure part out I've used [this tutorial](https://youtu.be/CxNKWNKBLMs?si=DzsP05Oc1_6IBStr).
 
 When clojure has calculated the model one can open it in SCAD, render it and
 save the .stl which can than be handled by a slicer. I used Ultimaker Cura for
@@ -83,13 +100,74 @@ The printing took two times 16 hours for cases and two times 5 hours for the pla
 Cleaning up the print took together around 2 hours, the cases had some annoying
 spots where one had to remove support.
 
+My 3d-printed parts are on [my dactyl-manuform
+repo](https://github.com/d-rens/dactyl-manuform) it's a fork of the
+dactyl-manuform which is a form of the dactyl-manuform-mini-keyboard which is a
+fork of the dactyl-keyboard (manuform) which is a fork of the original dactyl.
+Minor instructions on how to change parameters, render it with clojure and
+scad, etc. are attached.
+
 ### Soldering
+<!--#############################picture-->
+
+To solder I first needed a good amount of cable first I tried using too hard
+wire which didn't work out, then finally what worked out was around 1.2 meters of
+old Network cable that were laying around. 
+
+The soldering was probably the most fun part of the project next to using the keyboard, 
+I've not done it in months/years and it was a very relaxing process when one
+does not have debug messages pop up left and right, instead just to test if
+currents are able to flow from time to time. *Note to myself: solder more.*
+
+The wiring was not hard but I struggled to find circuit diagrams for the 5x7
+dactyl-manuform, which I thought are neccessary. Turns out, it's pretty
+intuitive if one just takes a minute to think about it.
+
+In the following you can see how I've ended up wiring my keyboard.
+<!--#############################wiring diagram affinity designer-->
+
+## Firmware
+
+### Flashing
+
+Flashing was the part where I've struggled the most with, I've first tried to
+use zmk, then the qmk configurator and then finally the qmk cli.
+It seems like zmk is good but I've not looked enough into it. The qmk
+configurator seemed very easy but with that out of the way it is very limiting.
+
+The qmk cli is very nice, it has good documentation, way more options than you
+could ever wish for... But it did take some days to comprehend and figure out I
+needed to change the pre set pins of my Arduinos, add three wires between the
+Arduinos and some other things. 
+
+That out of the way I assume when I'd go to build another keyboard with the
+knowledge of the tool that I now have it would be easy and fun.
+
+### Layout
+As already said earlier in a footnote, I am planning to change the layout but
+here is what I will use for now before switching to something like dvorak.
+
+<!--#############################layout diagram affinity designer (make nicely with layers in corners)-->
+
+There are still a lot of conflicts within me on how to use the possitions for
+function keys, on macos all I need is the command/super/win key, but when using
+arch with dwm I don't have any use for it which makes it kind of pointless to
+place command in the "best" position and the other way around. both keys I would
+like to have on either side of the keyboard due to having to be used with the
+other side of the keyboard again.
+
+As said, there are many conflicts and too few keys in the thumbcluster, will
+probably change it regularly.
 
 
 
+## Final Thoughts
+
+### Typing
+<!-- picture: monketype stats since switching -->
 
 
-
+### What I would have had done differently now that I know more
 
 
 
@@ -112,10 +190,6 @@ $ qmk flash -kb handwired/dactyl_manuform/5x7 -km my-map
 [^2]: I did not found science backing this, but in my head it makes a lot of
       sense, so you might as well trust me on it.
 
-[^3]: The 3d-printed parts are on [my dactyl-manuform
-      repo](https://github.com/d-rens/dactyl-manuform) it's a fork of the
-      dactyl-manuform which is a form of the dactyl-manuform-mini-keyboard
-      which is a fork of the dactyl-keyboard (manuform) which is a fork of the
-      original dactyl. Minor instructions on how to change parameters, render
-      it with clojure and scad, etc. are attached.
-
+[^3]: I first tried keycaps with profile because I did not notice there were any
+      differences but it made key's keycaps get stuck with each other on more
+      curvy surfaces.
