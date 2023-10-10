@@ -38,7 +38,7 @@
 
     {{ block "footer" . }}
     <footer>
-        <a href="{{ .Site.BaseURL }}">Home</a> {{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
+        <a href="{{ .Site.BaseURL }}">Home</a> {{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }} <p><a href="/contact">contact</a></p>
     </footer>
 
     {{ end }}
