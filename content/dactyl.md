@@ -7,7 +7,7 @@ tag: technology
 
 # The Dactyl Experience
 
-{{< figure src="/dactyl/oben-crop.png" title="Printing process of case (right side)" >}} 
+{{< figure src="/dactyl/oben-crop.png" title="Finished Keyboard" >}} 
 
 ## Preface 
 During the last days and weeks I've spend some of my time soldering,
