@@ -1,14 +1,13 @@
 ---
 title: "Dactyl"
-date: 2023-09-21T08:31:14+02:00
-lastmod: 2023-09-21T15:31:14+02:00 
+date: 2023-10-10T22:04:14+02:00
+#lastmod: 2023-09-21T15:31:14+02:00 
 tag: technology
-draft: true
 ---
 
 # The Dactyl Experience
 
-<!--#############################picture-->
+{{< figure src="/dactyl/oben-crop.png" title="Printing process of case (right side)" >}} 
 
 ## Preface 
 During the last days and weeks I've spend some of my time soldering,
@@ -39,20 +38,19 @@ with the following ergonomic features to make it great to use:
 
 <p>&nbsp;</p>
 
+<!--#############################drawing-->
 **Thumb cluster**
 : One of the things I still got very annoyed at after many years of typing is
-  the following:
-<!--#############################drawing-->
-
-
+  the following:   
   - Two pinkies are supposed to handle ~24 keys together.
   - Two thumbs are supposed to handle 1!
-: This I would argue is inherently nonsense. The pinky's range of motion is
-  biologically-wise the most restricted and weak, whereas the thumbs range is
-  bigger and able to be multiple times stronger [^2].
 
-: So the dactyl features a thumbcluster of six keys, in some later section I
-  will again mention it in my thoughts on the layout I made.
+This I would argue is inherently nonsense. The pinky's range of motion is
+biologically-wise the most restricted and weak, whereas the thumbs range is
+bigger and able to be multiple times stronger [^2].
+
+So the dactyl features a thumbcluster of six keys, in some later section I will
+again mention it in my thoughts on the layout I made.
 
 
 <!--################ some way to bridge ###################-->
@@ -86,7 +84,7 @@ did work on every switch :).
 ## Building
 
 ### Printing
-<!--#############################picture if available-->
+{{< figure src="/dactyl/printing.png" title="Printing process of case (right side)" >}} 
 To print the case with bottomplate one needs to setup a clojure environment
 which than takes parameters to calculate the model as SCAD file. To figure the
 clojure part out I've used [this tutorial](https://youtu.be/CxNKWNKBLMs?si=DzsP05Oc1_6IBStr).
@@ -108,7 +106,7 @@ Minor instructions on how to change parameters, render it with clojure and
 scad, etc. are attached.
 
 ### Soldering
-<!--#############################picture-->
+{{< figure src="/dactyl/soldering.png" title="Soldering of left side" >}} 
 
 To solder I first needed a good amount of cable first I tried using too hard
 wire which didn't work out, then finally what worked out was around 1.2 meters of
@@ -124,7 +122,8 @@ dactyl-manuform, which I thought are neccessary. Turns out, it's pretty
 intuitive if one just takes a minute to think about it.
 
 In the following you can see how I've ended up wiring my keyboard.
-<!--#############################wiring diagram affinity designer-->
+
+{{< figure src="/dactyl/dactyl-plan.png" title="Figure of wiring" >}} 
 
 ## Firmware
 
@@ -147,27 +146,47 @@ knowledge of the tool that I now have it would be easy and fun.
 As already said earlier in a footnote, I am planning to change the layout but
 here is what I will use for now before switching to something like dvorak.
 
-<!--#############################layout diagram affinity designer (make nicely with layers in corners)-->
+{{< figure src="/dactyl/layers.png" title="Figure of Layers and function keys" >}} 
 
-There are still a lot of conflicts within me on how to use the possitions for
+
+There are still a lot of conflicts within me on how to use the positions for
 function keys, on macos all I need is the command/super/win key, but when using
 arch with dwm I don't have any use for it which makes it kind of pointless to
 place command in the "best" position and the other way around. both keys I would
 like to have on either side of the keyboard due to having to be used with the
 other side of the keyboard again.
 
-As said, there are many conflicts and too few keys in the thumbcluster, will
-probably change it regularly.
+As said, there are many conflicts and too few keys in the thumbcluster, so I
+will probably change the Layout it regularly.
 
 
 
 ## Final Thoughts
 
 ### Typing
-<!-- picture: monketype stats since switching -->
+{{< figure src="/dactyl/monkey.png" title="Development of typing speed, guess where i switched" >}} 
+
+At the time of now I have been using the new keyboard for around a month, my
+speeds went up around 70 which is slower than i've expected, but that's not an issue.
 
 
 ### What I would have had done differently now that I know more
+- less keys
+  : I thought I'll just go with the standard 5rows x 7columns, but now, having
+  seen what qmk layers can all do i see why a lot of people in the ergo-mech
+  community lately are building 34 key keyboard
+  [example](https://www.reddit.com/r/ErgoMechKeyboards/comments/15rucbn/my_first_build_34_key_split/).
+  With a good firmware and layers one just does not need that many keys.
+- maybe steeper angle of inner case
+  : having the 20° which the keyboard has are great, but I am thinking that a
+  steeper angle should be even better. Can't say anything for sure, because I have 
+  never used a steeper keyboard but it would better form a case in which the natural hand position fits.
+
+
+
+
+
+
 
 
 
@@ -181,7 +200,6 @@ probably change it regularly.
 <!--```sh
 $ qmk flash -kb handwired/dactyl_manuform/5x7 -km my-map
 ```-->
-
 
 [^1]: One could argue here that a layout change from qwerty/qwertz to something
       like dvorak would solve another huge issue with typewriters. Yes, expect a
