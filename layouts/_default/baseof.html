@@ -8,6 +8,7 @@
         <link rel='stylesheet' type='text/css' href='/style.css'>
         {{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
         {{ end -}}
+        <link href="https://iosevka-webfonts.github.io/iosevka-aile/iosevka-aile.css" rel="stylesheet" />
         <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
         {{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
         {{ end -}}
