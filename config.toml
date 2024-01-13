@@ -1,8 +1,12 @@
 baseURL = 'https://d-rens.site/'
 languageCode = 'en-us'
 title = "daniels webpage"
+theme = "archie"
+paginate=3
 
 [params]
+  mode="auto"
+  subtitle="Hello there, I'm daniel, have a look around"
   # "relatedtext" is the text that appears above the tag list at the bottom of pages.
   relatedtext = "Related"
   # favicon = "/favicon.ico"
@@ -16,3 +20,33 @@ title = "daniels webpage"
   taglist = true
   showrss = true
 
+
+[[menu.main]]
+name = "blog"
+url = "/blog"
+weight = 3
+
+[[menu.main]]
+name = "books"
+url = "/books"
+weigth = 1
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "programs"
+url = "/programs"
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/d-rens"
+
+[[params.social]]
+name = "mail: contact@d-rens.site"
+icon = "mail"
+url = "mailto:contact@d-rens.site"
