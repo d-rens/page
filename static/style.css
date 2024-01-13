@@ -9,16 +9,9 @@
     --started: #fae3b0;
 }
 
-@font-face {
-  font-family: 'Iosevka Aile Web';
-  src: url('https://iosevka-webfonts.github.io/iosevka/iosevka.woff2') format('woff2'),
-       url('https://iosevka-webfonts.github.io/iosevka/iosevka.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
-  font-family: 'Iosevka Aile Web', sans-serif;
+  font-family: "CMU Sans Serif", sans-serif;
   background: var(--background-color);
   color: var(--primary-color);
 }
