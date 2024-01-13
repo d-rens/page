@@ -2,7 +2,7 @@
 title: "Dactyl"
 date: 2023-10-10T22:04:14+02:00
 #lastmod: 2023-09-21T15:31:14+02:00 
-tag: technology
+tags: ['technology', 'hardware', 'software']
 ---
 
 # The Dactyl Experience

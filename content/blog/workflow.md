@@ -2,7 +2,7 @@
 title: "Workflow"
 date: 2023-07-26T12:10:19+02:00
 lastmod: 2023-09-21T15:22:19+02:00
-tags: ['technology']
+tags: ['technology', 'software']
 ---
 
 

@@ -1,11 +1,9 @@
 ---
 title: "Rss"
 date: 2023-07-18T10:16:26+02:00
-tag: technology
+tags: ['technology']
 ---
-
-In times of constant notifications, information and news it is hard to
-keep up with your actual interest.
+In times of constant notifications, information and news it is hard to keep up with your actual interest.
 
 Let me take Instagram as an exmample, I assume it is very similar on
 other "social-media", you have that concept of a feed, with maybe 50%
@@ -32,8 +30,8 @@ It works so that you just have a link to a feed which you can
 
 e.g. https://www.lagedernation.org/rss
 
-{{< figure src="/rss-1.png" title="feed list" >}} 
-{{< figure src="/rss-2.png" title="feed post" >}}
+{{< figure src="../../rss/article.png" title="feed list" >}} 
+{{< figure src="../../rss/feed.png" title="feed post" >}}
 
 For me the rule of thumb is: either it has RSS, or it doesn't, and if
 not, then I don't bother with it.

@@ -1,6 +1,0 @@
----
-title: "Entries"
----
-
-{{< posts-sorted >}}
-
