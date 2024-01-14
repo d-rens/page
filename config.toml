@@ -50,3 +50,9 @@ url = "https://github.com/d-rens"
 name = "mail: contact@d-rens.site"
 icon = "mail"
 url = "mailto:contact@d-rens.site"
+
+[[params.social]]
+name = "rss"
+icon = "rss"
+url = "https://d-rens.site/index.xml"
+
