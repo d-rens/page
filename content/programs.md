@@ -81,4 +81,14 @@ tablet
 : boox tab ultra, an eink tablet for reading websites, textbooks or books.
 
 
+# self-hosted
+All the self hosted programs are running on dockers on a Raspberry Pi 5 (8gb)
 
+nextcloud
+: To have data in the cloud not at some ubiquitous company.
+
+searXNG
+: Search-engine, as substitute for google.
+
+paperless-ngx
+: Document management with OCR and a variety of other helpful features.
