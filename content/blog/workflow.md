@@ -1,8 +1,9 @@
 ---
-title: "Workflow"
+title: "Workflow (2023)"
 date: 2023-07-26T12:10:19+02:00
 lastmod: 2023-09-21T15:22:19+02:00
 tags: ['technology', 'software']
+description: Presenting my academic workflow with LaTeX, Inkscape, Zotero, Neovim and Obsidian.
 ---
 
 

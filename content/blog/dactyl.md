@@ -3,6 +3,7 @@ title: "Dactyl"
 date: 2023-10-10T22:04:14+02:00
 #lastmod: 2023-09-21T15:31:14+02:00 
 tags: ['technology', 'hardware', 'software']
+description: 3D-Printing a parametrically designed ergonomic keyboard and getting comfortable with it.
 ---
 
 # The Dactyl Experience

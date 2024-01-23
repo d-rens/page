@@ -2,6 +2,7 @@
 title: "Rss"
 date: 2023-07-18T10:16:26+02:00
 tags: ['technology']
+description: RSS and why we need it in current times.
 ---
 In times of constant notifications, information and news it is hard to keep up with your actual interest.
 
