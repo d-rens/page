@@ -2,7 +2,7 @@ baseURL = 'https://d-rens.site/'
 languageCode = 'en-us'
 title = "daniels webpage"
 theme = "archie-trimmed"
-paginate=3
+paginate=5
 
 [params]
   mode="auto"
