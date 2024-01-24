@@ -1,5 +1,5 @@
 ---
-title: "Layout"
+title: "Keyboard Layout"
 date: 2024-01-23T22:14:50+01:00
 tags: ['technology', 'software']
 description: Changing the keyboard layout from qwerty to semimak-jq. Process and review of the process.
