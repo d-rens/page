@@ -1,7 +1,7 @@
 baseURL = 'https://d-rens.site/'
 languageCode = 'en-us'
 title = "daniels webpage"
-theme = "risotto"
+theme = "risotto-mod"
 paginate=5
 
 [params]
