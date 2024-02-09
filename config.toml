@@ -58,6 +58,11 @@ title = "Email"
 url = "mailto:contact@d-rens.site"
 
 [[params.socialLinks]]
+name = "pgp"
+icon = "fa-solid fa-lock"
+url = "https://d-rens.site/gpg.txt"
+
+[[params.socialLinks]]
 name = "rss"
 icon = "fa-solid fa-rss"
 url = "https://d-rens.site/index.xml"
