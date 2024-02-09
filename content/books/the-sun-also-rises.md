@@ -1,8 +1,6 @@
 ---
 title: "Review: The Sun Also Rises"
 date: 2024-02-09T14:52:25+01:00
-description:
-draft: true
 tags: ['review']
 ---
 

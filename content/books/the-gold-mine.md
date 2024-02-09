@@ -1,7 +1,6 @@
 ---
 title: "Review: The Gold Mine"
 date: 2024-02-09T14:57:10+01:00
-draft: true
 tags: ['review']
 ---
 

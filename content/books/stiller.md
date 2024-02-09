@@ -1,8 +1,6 @@
 ---
 title: "Review: Stiller"
 date: 2024-02-09T14:51:55+01:00
-description:
-draft: true
 tags: ['review']
 ---
 

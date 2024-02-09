@@ -2,7 +2,6 @@
 title: "Review: Das Kommunistische Manifest"
 date: 2024-02-09T14:57:44+01:00
 description: "Review"
-draft: true
 tags: ['review']
 ---
 

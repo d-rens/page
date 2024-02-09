@@ -1,7 +1,6 @@
 ---
 title: "Review: Night Falls Fast"
 date: 2024-02-09T14:57:53+01:00
-draft: true
 tags: ['review'] 
 ---
 

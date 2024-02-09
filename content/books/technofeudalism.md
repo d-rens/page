@@ -1,7 +1,6 @@
 ---
 title: "Review: Technofeudalism"
 date: 2024-02-09T14:58:25+01:00
-draft: true
 tags: ['review'] 
 ---
 
