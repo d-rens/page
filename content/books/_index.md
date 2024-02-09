@@ -10,8 +10,8 @@ Here I'll list the read-worthy books I've read, sorted in year I've read it and 
 
 ## non-fiction
 ## fiction
-- Ernest Hemingway, The Sun also Rises
-- Max Frisch, Stiller
+- Ernest Hemingway, [The Sun also Rises](./the-sun-also-rises)
+- Max Frisch, [Stiller](./stiller)
 - Thomas Mann, Der Tod in Venedig
 
 # 2023
@@ -19,15 +19,16 @@ Here I'll list the read-worthy books I've read, sorted in year I've read it and 
 - Cal Newport, Deep Work
 - Cal Newport, Digital Minimalism
 - Epiktet, Handbuechlein der Moral
-- Freddy Balle, The Gold Mine
+- Freddy Balle, [The Gold Mine](./the-gold-mine)
 - J.S. Mill, On Liberty
 - J.S. Mill, Ulitarianism
-- Karl Marx, Das Kommunistisch Manifest
-- Kay Redfield Jamison, Night Falls Fast
+- Karl Marx, [Das Kommunistisch Manifest](./das-kommunistische-manifest)
+- Kay Redfield Jamison, [Night Falls Fast](./night-falls-fast)
 - Scott H. Young, Ultralearing
 - Sun Tzu, The Art of War
-- Theodore Kaczynski, Industrial Society & it's Future
-- Yanis Varoufakis, Techno-Feudalism
+- Theodore Kaczynski, [Industrial Society & it's Future](./industrial-society-and-its-future)
+- Vladimir Lenin, [Staat und Revolution](staat-und-revolution)
+- Yanis Varoufakis, [Techno-Feudalism](./technofeudalism)
 
 ## fiction
 - Erich Maria Remarque, Im Westen nichts Neues
@@ -58,3 +59,5 @@ Here I'll list the read-worthy books I've read, sorted in year I've read it and 
 - Homer, Odyssey 
 - Max Frisch, Homo Faber
 
+
+## latest reviews:
