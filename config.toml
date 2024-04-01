@@ -60,7 +60,7 @@ url = "mailto:contact@d-rens.site"
 [[params.socialLinks]]
 name = "pgp"
 icon = "fa-solid fa-lock"
-url = "https://d-rens.site/gpg.txt"
+url = "https://d-rens.site/public_key.asc"
 
 [[params.socialLinks]]
 name = "rss"
