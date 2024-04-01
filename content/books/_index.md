@@ -9,9 +9,15 @@ Here I'll list the read-worthy books I've read, sorted in year I've read it and 
 > The books for 2024 I will update every other month or so, I plan to read Kants works, Hume, the last three works of Dostoevsky and whatever else comes to mind.
 
 ## non-fiction
+- Golo Mann, Deutsche Geschichte des 19. und 20. Jahrhunderts
+- Michael W. Lucas, PGP & GPG for the Practical Paranoid
+
 ## fiction
+- Ernest Callenbach, Ecotopia
 - Ernest Hemingway, [The Sun also Rises](./the-sun-also-rises)
+- Graham Greene, The Human Factor
 - Max Frisch, [Stiller](./stiller)
+- Stefan Zweig, Schachnovelle
 - Thomas Mann, Der Tod in Venedig
 
 # 2023
