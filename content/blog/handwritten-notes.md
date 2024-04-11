@@ -115,12 +115,39 @@ While it is not as nice to write on a tablet, it's not neglectable that it's abl
 
 Further, while the system is yet very nicely optimized, my usage of it has not. That will just take some more weeks, will update on it.
 
-### update
-> This is a planned section, apparently it is not yet written.
+### update: 11th April
+To start of, it works really well. 
+But as the tablet I was using was an old model having a nearly broken pen and small drawing area, making it harder to do any specific notation, without zooming before, I decided to look out for newer models, ending up on the Wacom one in medium size, getting it as warehouse deal for 40 euros.
+
+The bigger drawing area is helpful and it's design wise pleasingly minimalistic. In the following you can see the now updated pen drawing.
+
+{{< figure src="../../handwritten/new-pen.png" title="Figure 4: New pen + hotkeys on it" >}} 
+
+As seen below, the tablet's drawing area is pretty big, 13,5cm x 22,6cm, but it is pretty helpful for the small notations to do.
+
+{{< figure src="../../handwritten/setup.jpg" title="Figure 5: Setup" >}} 
 
 
+### dwm hotkeys
+About the hotkeys within xournalpp I have talked plenty but they also live outside of it in my system, currently I have a bash function, mapped to `alt+x`, to open a xournalpp file `note.xopp` in a folder named the current date, e.g. `2024-04-11`, the folder structure within a `~/folder/notes/` directory them seems the following:
+```
+.
+├── 2024-03-28
+│   └── note.xopp
+├── 2024-03-29
+│   └── note.xopp
+├── 2024-03-30
+│   └── note.xopp
+├── 2024-03-31
+│   └── note.xopp
+.
+```
 
+This is also taken out of Castel`s "phd workflow", if I create a TeX file on the following day with `alt+n`, then it puts this TeX file also within this folder.
 
+I will need to think about how to adjust this to my needs. If I don't talk daily TeX notes with the results of the days handwritten notes, due to not doing research, then it's not really conclusive, rather a scrap paper alternative. My current mathematical learning is nothing else than learning with scrap paper, but it won't be a good way without reflecting on the results, ..
+
+You get the point, that's still to be worked out in the following weeks, but at the moment I am happy with the workflow, despite knowing how much better it could be or result to be.
 
 
 
