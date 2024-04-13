@@ -1,4 +1,4 @@
-baseURL = 'https://d-rens.site/'
+baseURL = 'https://d-rens.xyz/'
 languageCode = 'en-us'
 title = "daniels webpage"
 theme = "risotto-mod"
@@ -55,17 +55,17 @@ url = "https://github.com/d-rens"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:contact@d-rens.site"
+url = "mailto:contact@d-rens.xyz"
 
 [[params.socialLinks]]
-name = "pgp"
+name = "gpg"
 icon = "fa-solid fa-lock"
-url = "https://d-rens.site/public_key.asc"
+url = "https://d-rens.xyz/d-rens.asc"
 
 [[params.socialLinks]]
 name = "rss"
 icon = "fa-solid fa-rss"
-url = "https://d-rens.site/index.xml"
+url = "https://d-rens.xyz/index.xml"
 
 
 
@@ -75,11 +75,11 @@ icon = "github"
 url = "https://github.com/d-rens"
 
 [[params.social]]
-name = "mail: contact@d-rens.site"
+name = "mail: contact@d-rens.xyz"
 icon = "mail"
-url = "mailto:contact@d-rens.site"
+url = "mailto:contact@d-rens.xyz"
 
 [[params.social]]
 name = "rss"
 icon = "rss"
-url = "https://d-rens.site/index.xml"
+url = "https://d-rens.xyz/index.xml"

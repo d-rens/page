@@ -1,2 +1,2 @@
 # page
-on https://d-rens.site/
+on https://d-rens.xyz/
