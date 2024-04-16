@@ -55,7 +55,7 @@ url = "https://github.com/d-rens"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:contact@d-rens.xyz"
+url = "/about#contact"
 
 [[params.socialLinks]]
 name = "gpg"
@@ -75,9 +75,9 @@ icon = "github"
 url = "https://github.com/d-rens"
 
 [[params.social]]
-name = "mail: contact@d-rens.xyz"
+name = "mail"
 icon = "mail"
-url = "mailto:contact@d-rens.xyz"
+url = "/about#contact"
 
 [[params.social]]
 name = "rss"

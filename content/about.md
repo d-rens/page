@@ -8,5 +8,7 @@ On the [blog](/blog) I keep track of the bigger projects I've done or the bigger
 
 I spend too much on my time on configuring and figuring Linux, you can find my dotfiles [here](https://github.com/d-rens/dotfiles) and the programs I use [here](/programs).
 
-If you want to reach me: *contact [at] d-rens.site*.\
-*to use pgp see my [public key here](../public_key.txt)*
+## contact
+
+If you want to reach me: *contact [at] d-rens.xyz*.\
+*to use pgp see my [public key here](../d-rens.asc)*
