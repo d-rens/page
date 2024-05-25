@@ -10,5 +10,5 @@ I spend too much on my time on configuring and figuring Linux, you can find my d
 
 ## contact
 
-If you want to reach me: *contact [at] d-rens.xyz*.\
+If you want to reach me: *daniel [∂] d-rens.xyz*.\
 *to use pgp see my [public key here](../d-rens.asc)*
