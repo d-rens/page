@@ -1,0 +1,43 @@
+:root {
+  --background-color: #1a1823;
+  --primary-color: #c9cbff;
+  --secondary-color: #96cdfb;
+  --tertiary-color: #f28fad;
+  --quaternary-color: #abe9b3;
+}
+
+body {
+  font-family: arial;
+  background-color: var(--background-color);
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+
+nav a {
+  background-color: grey;
+  text-decoration: none;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+figure figcaption {
+  margin: auto;
+  text-align: center;
+}
+
+/*
+code {
+  width: 70%;
+  background-color: black;
+}
+
+div .highlight pre span {
+  background-color: black;
+}
+*/

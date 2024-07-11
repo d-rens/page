@@ -65,7 +65,7 @@ Just while writing this I have also found [an incredible file](https://github.co
 So this step is done, I just add functions to the `main.lua` and mention them in the top of the file in another function which adds hotkeys to them. 
 
 #### snippet out of my config to illustrate
-```lua
+{{< highlight lua "linenos=table, style=modus-vivendi" >}}
 function initUi()
   app.registerUi({["menu"] = "Pen Tool", ["callback"] = "pen", ["accelerator"] = "m"});
   app.registerUi({["menu"] = "Cycle through line style", ["callback"] = "linestyle", ["accelerator"] = "<shift>m"});
@@ -86,7 +86,7 @@ function linestyle()
   app.uiAction({["action"] = "ACTION_TOOL_LINE_STYLE_" .. linestyleList[currentLinestyle]})
   print("ACTION_TOOL_LINE_STYLE_" .. linestyleList[currentLinestyle])
 end
-```
+{{< / highlight >}}
 
 The whole mess you can find [here](https://github.com/d-rens/dotfiles/blob/master/xournalpp/plugins/shortcuts/main.lua).
 

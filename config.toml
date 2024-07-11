@@ -1,7 +1,7 @@
 baseURL = 'https://d-rens.xyz/'
 languageCode = 'en-us'
 title = "daniels webpage"
-theme = "risotto-mod"
+theme = "rework"
 paginate=5
 
 [params]
@@ -20,8 +20,6 @@ paginate=5
   taglist = true
   showrss = true
 
-[params.theme]
-# palette = "windows-95"
 
 [[menu.main]]
 name = "blog"
@@ -43,35 +41,18 @@ name = "programs"
 url = "/programs"
 
 
-[params.about]
-title = "~/d-rens"
-
-
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/d-rens"
-
-[[params.socialLinks]]
-icon = "fa-solid fa-envelope"
-title = "Email"
-url = "/about#contact"
-
-[[params.socialLinks]]
-name = "gpg"
-icon = "fa-solid fa-lock"
-url = "https://d-rens.xyz/d-rens.asc"
-
-[[params.socialLinks]]
-name = "rss"
-icon = "fa-solid fa-rss"
-url = "https://d-rens.xyz/index.xml"
-
+#[params.about]
+#title = "~/d-rens"
 
 
 [[params.social]]
+name = "gpg"
+icon = "gpg"
+url = "https://d-rens.xyz/d-rens.asc"
+
+[[params.social]]
 name = "GitHub"
-icon = "github"
+icon = "git"
 url = "https://github.com/d-rens"
 
 [[params.social]]
